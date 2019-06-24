@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiEx", "DigiEx.csproj", "{5F8F887A-3511-4E15-BC8A-98C90D5CBD71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiExUnitTesting", "..\DigiExUnitTesting\DigiExUnitTesting.csproj", "{D05073C1-BF4D-4B3C-ACBF-A75EB776CB8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F8F887A-3511-4E15-BC8A-98C90D5CBD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8F887A-3511-4E15-BC8A-98C90D5CBD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8F887A-3511-4E15-BC8A-98C90D5CBD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8F887A-3511-4E15-BC8A-98C90D5CBD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05073C1-BF4D-4B3C-ACBF-A75EB776CB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05073C1-BF4D-4B3C-ACBF-A75EB776CB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05073C1-BF4D-4B3C-ACBF-A75EB776CB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05073C1-BF4D-4B3C-ACBF-A75EB776CB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2968BA4D-B4E6-41EF-9F54-8B9DDD2BDA96}
+	EndGlobalSection
+EndGlobal
