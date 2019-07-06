@@ -10,5 +10,6 @@ namespace DigiEx.Models
         void addElement();
         void editElement();
         void findElement();
+        void fetchElement();
     }
 }

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DigiEx.Models
 {
-    interface IPrueba
+    public class PersonModel
     {
     }
 }

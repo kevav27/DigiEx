@@ -15,6 +15,11 @@ namespace DigiEx.Controllers
             return View();
         }
 
+        public IActionResult LogIn()
+        {
+            return View("Views/Home/LogIn.cshtml");
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
