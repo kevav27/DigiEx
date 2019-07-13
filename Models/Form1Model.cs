@@ -5,10 +5,8 @@ using System.Threading.Tasks;
 
 namespace DigiEx.Models
 {
-    public class UserModel
+    public class Form1Model
     {
-        private string user { get; set; }
-        private string password { get; set; }
-
+        private string p1 { get; set; } //poner de nombre el acrónimo
     }
 }
