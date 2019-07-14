@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 namespace DigiEx.Models
 {
+    //Contenido en el primer y segundo formulario
     //Todo los datos dentro de la tabla Persona
     public class PersonaModel
     {
-
         private string nombrePaciente { get; set; } //Nombre en tabla Persona
         private string primerApellido { get; set; } //PrimerApellido en tabla Persona
         private string segundoApellido { get; set; } //SegundoApellido en tabla Persona
