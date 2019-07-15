@@ -8,7 +8,7 @@ namespace DigiEx.Models
     //Contenido encontrado en el segundo formulario
     //Todos los datos estan en la tabla HIAntecedentesHIV
     //Todos las variables con terminacion Desc pueden ser nulas dependiendo de la respuesta de su contra parte
-    public class HIAntecedentesHIV
+    public class HIAntecedentesHIVModel
     { 
         private string hivTatuajes { get; set; }
         private string hivUsoJeringas { get; set; }
@@ -21,7 +21,7 @@ namespace DigiEx.Models
         private string hivFrecuenciasActividades { get; set; }
         private string hivEntretenimiento { get; set; }
 
-        public HIAntecedentesHIV()
+        public HIAntecedentesHIVModel()
         {
 
         }
