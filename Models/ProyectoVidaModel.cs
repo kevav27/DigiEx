@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace DigiEx.Models
 {
     //Contenido encontrado en el segundo formulario
-    //Todos los datos estan en la tabla ProyectoVidaSocial
+    //Todos los datos estan en la tabla ProyectoVidaModel
     public class ProyectoVidaModel
     {
         private string pvFortalezas { get; set; }
