@@ -5,7 +5,10 @@ using System.Threading.Tasks;
 
 namespace DigiEx.Models
 {
-    interface IPrueba
+    public class UserModel
     {
+        private string user { get; set; }
+        private string password { get; set; }
+
     }
 }
