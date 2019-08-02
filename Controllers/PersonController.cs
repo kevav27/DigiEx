@@ -7,24 +7,24 @@ using DigiEx.Models;
 
 namespace DigiEx.Controllers
 {
-    public class PersonController : PersonModel, IDataBaseMethods
+    public class PersonController : PersonaModel, IDataBaseMethods
     {
-        public void addElement()
-        {
-            
-        }
-
-        public void editElement()
+        void IDataBaseMethods.addElement(object o)
         {
             throw new NotImplementedException();
         }
 
-        public void fetchElement()
+        void IDataBaseMethods.editElement(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void findElement()
+        void IDataBaseMethods.fetchElement(string f)
+        {
+            throw new NotImplementedException();
+        }
+
+        void IDataBaseMethods.findElement(int id)
         {
             throw new NotImplementedException();
         }
