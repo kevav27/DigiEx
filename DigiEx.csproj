@@ -1,24 +1,33 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="bootstrap" Version="4.3.1" />
+    <Content Remove="Views\Home\diagnos.cshtml" />
+    <Content Remove="Views\Home\engreso.cshtml" />
+    <Content Remove="Views\Home\estudio.cshtml" />
+    <Content Remove="Views\Home\expedientes.cshtml" />
+    <Content Remove="Views\Home\historia.cshtml" />
+    <Content Remove="Views\Home\Pacientes.cshtml" />
+    <Content Remove="Views\Home\tratam.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\Diagnos.cshtml" />
+    <None Include="Views\Home\Engreso.cshtml" />
+    <None Include="Views\Home\Estudio.cshtml" />
+    <None Include="Views\Home\Expedientes.cshtml" />
+    <None Include="Views\Home\Historia.cshtml" />
+    <None Include="Views\Home\Pacientes.cshtml" />
+    <None Include="Views\Home\Tratam.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Areas\Identity\Services\" />
   </ItemGroup>
 
 </Project>

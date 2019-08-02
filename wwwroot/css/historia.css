@@ -1,0 +1,887 @@
+body {
+	background-color : white;
+}
+
+#lbl-1 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-2 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-3 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-4 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-5 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-6 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-7 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-8 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-9 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-10 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-11 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-12 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-13 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-14 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-15 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl-16 {
+	display : inline;
+	padding-right : 4px;
+}
+
+label {
+	display : inline;
+}
+
+#lbl2-1 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl2-2 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl2-3 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl2-4 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl2-5 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl2-6 {
+	display : inline;
+	padding-right : 4px;
+}
+
+#lbl2-7 {
+	display : inline;
+	padding-right : 4px;
+}
+
+
+#div-1 {
+	padding-right: 10px;
+	margin-top : -745px;
+	position : absolute;
+	display : block;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-2 {
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top : -697px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-4 {
+	/*background-color : red;*/
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top: -370px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-5 {
+	/*background-color : yellow;*/ 
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top : -320px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-6 {
+	/*background-color : green;*/
+	padding-right : 10px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	position : absolute;
+	display : block;
+	margin-top : -270px;
+	padding-left : 3px;
+}
+
+#div-7 {
+	/*background-color : purple;*/
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top : -220px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-8 {
+	/*background-color : blue;*/
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top : -168px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-9 {
+	/*background-color : pink;*/
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top : -113px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-10 {
+	/*background-color : red;*/
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top : -54px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-11 {
+	/*background-color : yellow;*/
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top : 2px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-12 {
+	/*background-color : blue;*/
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top : 54px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-13 {
+	/*background-color : green;*/
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top : 106px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-14 {
+	/*background-color : pink;*/
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top : 158px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-15 {
+	/*background-color : red;*/
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top : 210px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-16 {
+	/*background-color : purple;*/	
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top : -62px;
+	top : 1000px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#div-17 {
+	/*background-color : pink;*/
+	padding-right : 10px;
+	position : absolute;
+	display : block;
+	margin-top : 500px;
+	top : 486px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 3px;
+}
+
+#btn_save {
+	margin-left : 450px;
+	margin-top : 800px;
+	top : 500px;
+	margin-bottom : 100px;
+	bottom : -800px;
+	
+}
+
+#div2-1 {
+	/*background-color : red;*/
+	position : absolute;
+	margin-top : 500px;
+	top : 700px;
+	padding-left : 5px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+
+#div2-2 {
+	/*background-color : blue;*/
+	position : absolute;
+	margin-top : 500px;
+	top : 748px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div2-3 {
+	/*background-color : green;*/
+	position : absolute;
+	margin-top : 500px;
+	top : 796px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div2-4 {
+	/*background-color : yellow;*/
+	position : absolute;
+	margin-top : 500px;
+	top : 844px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div2-5 {
+	/*background-color : aqua;*/
+	position : absolute;
+	margin-top : 500px;
+	top : 900px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div2-6 {
+	/*background-color : purple;*/
+	position : absolute;
+	margin-top : 500px;
+	top : 948px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div2-7 {
+	/*background-color : pink;*/
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 995px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div2-8 {
+	/*background-color : yellow;*/
+	position : relative;
+	display : block;
+	left : 500px;
+	padding-top : 10px;
+	top : -150px;
+	margin-bottom : -220px;
+	margin-top : 500px;
+	padding-top : 5px;
+	padding-left : 10px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+	
+}
+
+#div-btn {
+	position : relative;
+	margin-top : 500px;
+	top : 780px;
+	margin-left : 500px;
+	margin-bottom : 680px;
+	padding-right : 10px;
+	padding-bottom : 10px;
+	padding-left : 10px;
+	padding-top : 10px;
+}
+
+#lbl3-1 {
+	background-color : green;
+	position : absolute;
+	margin-top : 500px;
+	top : 1243px;
+}
+
+#lbl3-2 {
+	background-color : green;
+	position : absolute;
+	margin-top : 500px;
+	top : 1810px;
+}
+	
+	
+
+#div3-1 {
+	background-color : red;
+	position : absolute;
+	display : inline;
+	padding-top : -400px;
+	top : 1160px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-2 {
+	background-color : blue;
+	position : absolute;
+	display : inline;
+	padding-top : -400px;
+	top : 1270px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : -5px;
+}
+#div3-3 {
+	background-color : red;
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1300px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+
+#div3-4 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1334px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+
+#div3-5 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1362px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-6 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1396px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-7 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1430px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-8 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1463px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+
+#div3-9 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1495px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-10 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1529px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-11 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1563px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-12 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1596px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-13 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1630px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-14 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1664px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-15 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1698px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+
+#div3-16 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1732px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-17 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1765px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-20 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1834px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+
+#div3-21 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1868px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+
+#div3-22 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1902px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-23 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1935px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-24 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 1969px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-25 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 2000px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-26 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 2034px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-27 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 2068px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-28 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 2100px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-29 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 2130px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-30 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 2163px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-31 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 2197px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+
+#div3-32 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 2231px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-33 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 2265px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-34 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 2298px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-35 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 2332px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-36 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 2365px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-37 {
+	position : absolute;
+	display : block;
+	padding-top : -400px;
+	top : 2399px;
+	margin-top : 500px;
+	padding-left : 10px;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-38 {	
+	display : inline;
+	position : absolute;
+	margin-top : 500px;
+	top : -500px;
+	background-color : blue;
+}
+
+#div3-39 {
+	background-color : blue;
+}
+
+/* ends actual shit*/
+
+#separate-div {
+	/*background-color : blue;*/
+	margin-top : 1500px;
+}
+
+#lmap {
+	/*background-color : black;*/
+	margin-top : 10px;
+	padding-bottom : 1000px;
+	height : 910px;
+}

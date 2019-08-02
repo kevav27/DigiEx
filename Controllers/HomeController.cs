@@ -12,29 +12,38 @@ namespace DigiEx.Controllers
     {
         public IActionResult Index()
         {
+<<<<<<< HEAD
             return View("Views/Home/LogIn.cshtml");
+=======
+            //return View("~/Views/Home/Pacientes.cshtml");
+>>>>>>> ac0a9ba7ee151292d42a0e9f23070d00147aed17
         }
 
-        public IActionResult LogIn()
+        public IActionResult Historia()
         {
-            return View("Views/Home/LogIn.cshtml");
-        }
-
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
-
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Pacientes()
         {
-            ViewData["Message"] = "Your contact page.";
-
+            return View();
+        }
+        public IActionResult Estudio()
+        {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Diagnos()
+        {
+            return View();
+        }
+
+        public IActionResult Engreso()
+        {
+            return View();
+        }
+
+        public IActionResult Tratam ()
         {
             return View();
         }
