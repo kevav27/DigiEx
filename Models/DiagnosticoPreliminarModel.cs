@@ -9,9 +9,9 @@ namespace DigiEx.Models
     //Todos los datos estan en la tabla DiagnosticoPreliminar
     public class DiagnosticoPreliminarModel
     {
-        private DateTime fechaDiagnostico { get; set; }
-        private string ecPreComtemplacion { get; set; }
-        private string ecComtemplacion { get; set; }
+        private DateTime fechaDiagnostico;
+        private string ecPreComtemplacion;
+        private string ecComtemplacion;
         private string ecDeterminacion { get; set; }
         private string ecAccion { get; set; }
         private string ecMantenimiento { get; set; }
@@ -32,7 +32,38 @@ namespace DigiEx.Models
 
         public DiagnosticoPreliminarModel()
         {
+        }
+
+        public DateTime GetfechaDiagnostico()
+        {
+            return fechaDiagnostico;
+        }
+
+        public void SetfechaDiagnostico(DateTime value)
+        {
+            fechaDiagnostico = value;
 
         }
+
+        public string GetecPreComtemplacion()
+        {
+            return ecPreComtemplacion;
+        }
+
+        public void SetecPreComtemplacion(string value)
+        {
+            ecPreComtemplacion = value;
+        }
+
+        public string GetecComtemplacion()
+        {
+            return ecComtemplacion;
+        }
+
+        public void SetecComtemplacion(string value)
+        {
+            ecComtemplacion = value;
+        }
+
     }
 }
