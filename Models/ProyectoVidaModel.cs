@@ -9,16 +9,16 @@ namespace DigiEx.Models
     //Todos los datos estan en la tabla ProyectoVidaModel
     public class ProyectoVidaModel
     {
-        private string pvFortalezas { get; set; }
-        private string pvOportunidades { get; set; }
-        private string pvDebilidades { get; set; }
-        private string pvAmenazas { get; set; }
-        private string pvObjetivoVidaEgresar { get; set; }
-        private string pvMetas { get; set; }
-        private string pvTareas { get; set; }
-        private string pvSeguimientoTratamiento { get; set; }
-        private string pvTiempoLibre { get; set; }
-        private string pvAcuerdosUltimaSesion { get; set; }
+        public string pvFortalezas { get; set; }
+        public string pvOportunidades { get; set; }
+        public string pvDebilidades { get; set; }
+        public string pvAmenazas { get; set; }
+        public string pvObjetivoVidaEgresar { get; set; }
+        public string pvMetas { get; set; }
+        public string pvTareas { get; set; }
+        public string pvSeguimientoTratamiento { get; set; }
+        public string pvTiempoLibre { get; set; }
+        public string pvAcuerdosUltimaSesion { get; set; }
 
         public ProyectoVidaModel()
         {

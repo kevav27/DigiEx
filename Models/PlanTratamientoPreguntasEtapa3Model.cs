@@ -9,16 +9,16 @@ namespace DigiEx.Models
     //Todos los datos estan en la tabla PlanTratamientoPreguntasEtapa2
     public class PlanTratamientoPreguntasEtapa3Model
     {
-        private string e3SituacionAdiccion { get; set; }
-        private string e3ExistenciaRedesApoyo { get; set; }
-        private string e3ParticipacionGruposApoyo { get; set; }
-        private string e3DesarrolloHabilidadesSociales { get; set; }
-        private string e3UsuarioAutonomia { get; set; }
-        private string e3MotivacionCambio { get; set; }
-        private string e3ProyectoVida { get; set; }
-        private string e3Planegreso { get; set; }
+        public string e3SituacionAdiccion { get; set; }
+        public string e3ExistenciaRedesApoyo { get; set; }
+        public string e3ParticipacionGruposApoyo { get; set; }
+        public string e3DesarrolloHabilidadesSociales { get; set; }
+        public string e3UsuarioAutonomia { get; set; }
+        public string e3MotivacionCambio { get; set; }
+        public string e3ProyectoVida { get; set; }
+        public string e3Planegreso { get; set; }
 
-        public PPlanTratamientoPreguntasEtapa3Model()
+        public PlanTratamientoPreguntasEtapa3Model()
         {
 
         }
