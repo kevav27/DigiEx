@@ -10,16 +10,16 @@ namespace DigiEx.Models
     //Todos las variables con terminacion Desc pueden ser nulas dependiendo de la respuesta de su contra parte
     public class HIPatronConsumoModel
     {
-        private string pcLugarConsumo { get; set; }
-        private string pcLugarConsumoDesc { get; set; }
-        private string pcQuienesConsumo { get; set; }
-        private string pcQuienesConsumoDesc { get; set; }
-        private string pcMotivoConsumo { get; set; }
-        private string pcMotivoConsumoDesc { get; set; }
-        private string pcDrogasConsumidas { get; set; }
-        private string pcFrecuenciaConsumo { get; set; }
-        private string pcNivelConsumo { get; set; }
-        private string pcDrogasUsdasUltimamente { get; set; }
+        public string pcLugarConsumo { get; set; }
+        public string pcLugarConsumoDesc { get; set; }
+        public string pcQuienesConsumo { get; set; }
+        public string pcQuienesConsumoDesc { get; set; }
+        public string pcMotivoConsumo { get; set; }
+        public string pcMotivoConsumoDesc { get; set; }
+        public string pcDrogasConsumidas { get; set; }
+        public string pcFrecuenciaConsumo { get; set; }
+        public string pcNivelConsumo { get; set; }
+        public string pcDrogasUsdasUltimamente { get; set; }
 
 
         public HIPatronConsumoModel()
