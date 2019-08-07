@@ -20,7 +20,7 @@ namespace DigiEx.Controllers
 
                 if (user.Equals(userDB) && password.Equals(passwordDB))
                 {
-                    //se ingresa a la pantalla principal de los servicios
+                    
                 }
                 else
                 {

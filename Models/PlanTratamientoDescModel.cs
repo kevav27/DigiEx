@@ -9,9 +9,9 @@ namespace DigiEx.Models
     //Todos los datos estan en la tabla PlanTratamientoDesc
     public class PlanTratamientoDescModel
     {
-        private string ptObjetivo { get; set; }
-        private string ptEstrategias { get; set; }
-        private string ptMeta { get; set; }
+        public string ptObjetivo { get; set; }
+        public string ptEstrategias { get; set; }
+        public string ptMeta { get; set; }
 
         public PlanTratamientoDescModel()
         {
