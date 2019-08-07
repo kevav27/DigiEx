@@ -10,10 +10,10 @@ namespace DigiEx.Models
     //Todos las variables con terminacion Desc pueden ser nulas dependiendo de la respuesta de su contra parte
     public class HIConsecuenciaConsumoModel
     { 
-        private string ccConsumoAfectado { get; set; }
-        private string ccConsumoAfectadoDesc { get; set; }
-        private string ccAntecedentesFamiliares { get; set; }
-        private string ccAntecedentesPersonales { get; set; }
+        public string ccConsumoAfectado { get; set; }
+        public string ccConsumoAfectadoDesc { get; set; }
+        public string ccAntecedentesFamiliares { get; set; }
+        public string ccAntecedentesPersonales { get; set; }
 
         public HIConsecuenciaConsumoModel()
         {

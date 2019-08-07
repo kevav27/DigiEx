@@ -9,12 +9,12 @@ namespace DigiEx.Models
     //Todos los datos dentro de la tabla HistorialLongitudinal de la base de datos
     public class HistorialLongitudinalModel
     {
-        private string cargoInternamiento { get; set; }
-        private string diAcude { get; set; }
-        private string diAcudeDesc { get; set; }
-        private string diAfecta { get; set; }
-        private string diTratamiento { get; set; }
-        private string diTratamientoDesc { get; set; }
+        public string cargoInternamiento { get; set; }
+        public string diAcude { get; set; }
+        public string diAcudeDesc { get; set; }
+        public string diAfecta { get; set; }
+        public string diTratamiento { get; set; }
+        public string diTratamientoDesc { get; set; }
 
         //falta agregar los queries dentro del constructor, agreagar cuando se conecte a la base de datos
         public HistorialLongitudinalModel()

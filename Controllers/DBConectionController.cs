@@ -12,5 +12,7 @@ namespace DigiEx.Controllers
     {
         public static SqlConnection con = new SqlConnection
         ("Data Source= DESKTOP-VHF3JQF; database = FusavoPrueba; Initial Catalog = DatabaseConnectivity;Trusted_Connection=true;");
+
+
     }
 }

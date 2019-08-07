@@ -10,20 +10,20 @@ namespace DigiEx.Models
     //Todos las variables con terminacion Desc pueden ser nulas dependiendo de la respuesta de su contra parte
     public class HIAntecedentesSexualesModel
     {
-    private string asInformacionSexual { get; set; }
-    private string asRelacionesSexuales { get; set; }
-    private string asPrimerContacto { get; set; }
-    private string asMasturbacionAdolescencia { get; set; }
-    private string asActualmenteMasturba { get; set; }
-    private string asPrimeraPareja { get; set; }
-    private string asAbusadoSexualmente { get; set; }
-    private string asTemorRelaciones { get; set; }
-    private string asActoSexual { get; set; }
-    private string asPracticoSexual { get; set; }
-    private string asPreferencialSexual { get; set; }
-    private string asSexoBajoDrogas { get; set; }
-    private string asRelacionesIncestuosas { get; set; }
-    private string asRelacionesIncestuosasDesc { get; set; }
+    public string asInformacionSexual { get; set; }
+    public string asRelacionesSexuales { get; set; }
+    public string asPrimerContacto { get; set; }
+    public string asMasturbacionAdolescencia { get; set; }
+    public string asActualmenteMasturba { get; set; }
+    public string asPrimeraPareja { get; set; }
+    public string asAbusadoSexualmente { get; set; }
+    public string asTemorRelaciones { get; set; }
+    public string asActoSexual { get; set; }
+    public string asPracticoSexual { get; set; }
+    public string asPreferencialSexual { get; set; }
+    public string asSexoBajoDrogas { get; set; }
+    public string asRelacionesIncestuosas { get; set; }
+    public string asRelacionesIncestuosasDesc { get; set; }
 
         public HIAntecedentesSexualesModel()
         {

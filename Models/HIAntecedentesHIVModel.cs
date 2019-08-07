@@ -10,16 +10,16 @@ namespace DigiEx.Models
     //Todos las variables con terminacion Desc pueden ser nulas dependiendo de la respuesta de su contra parte
     public class HIAntecedentesHIVModel
     { 
-        private string hivTatuajes { get; set; }
-        private string hivUsoJeringas { get; set; }
-        private string hivPadeceSIDA { get; set; }
-        private string hivHigenePersonal { get; set; }
-        private string hivHigeneHabitacional { get; set; }
-        private string hivProblemasAlimenticios { get; set; }
-        private string hivProblemasAlimenticiosDesc { get; set; }
-        private string hivTiempoLibre { get; set; }
-        private string hivFrecuenciasActividades { get; set; }
-        private string hivEntretenimiento { get; set; }
+        public string hivTatuajes { get; set; }
+        public string hivUsoJeringas { get; set; }
+        public string hivPadeceSIDA { get; set; }
+        public string hivHigenePersonal { get; set; }
+        public string hivHigeneHabitacional { get; set; }
+        public string hivProblemasAlimenticios { get; set; }
+        public string hivProblemasAlimenticiosDesc { get; set; }
+        public string hivTiempoLibre { get; set; }
+        public string hivFrecuenciasActividades { get; set; }
+        public string hivEntretenimiento { get; set; }
 
         public HIAntecedentesHIVModel()
         {
