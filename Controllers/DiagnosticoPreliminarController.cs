@@ -21,7 +21,7 @@ namespace DigiEx.Controllers
 
             }catch(Exception e)
             {
-
+                
             }
         }
 
