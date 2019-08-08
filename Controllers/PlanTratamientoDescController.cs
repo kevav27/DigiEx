@@ -8,12 +8,12 @@ using DigiEx.Models;
 
 namespace DigiEx.Controllers
 {
-    public class PersonController : IDataBaseMethods
+    public class PlanTratamientoDescController : IDataBaseMethods
     {
 
         public void addElement(object o)
         {
-            PersonaModel persona = (PersonaModel)o;
+            PlanTratamientoDescModel planTratamientoDesc = (PlanTratamientoDescModel)o;
 
         }
 
