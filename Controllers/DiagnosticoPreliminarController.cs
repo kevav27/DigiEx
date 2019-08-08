@@ -14,7 +14,15 @@ namespace DigiEx.Controllers
         public void addElement(object o)
         {
             DiagnosticoPreliminarModel diagnostico = (DiagnosticoPreliminarModel)o;
+            try
+            {
+                DBConectionController.con.Open();
+                string query = "INSERT INTO dbo.DiagnosticoPreliminar VALUES ()";
 
+            }catch(Exception e)
+            {
+
+            }
         }
 
         public void editElement(int id)
