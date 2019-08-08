@@ -14,6 +14,16 @@ namespace DigiEx.Controllers
         public void addElement(object o)
         {
             PersonaModel persona = (PersonaModel)o;
+            try
+            {
+                DBConectionController.con.Open();
+                string query = "INSERT INTO dbo.Persona VALUES()";
+                
+
+            }catch(Exception e)
+            {
+                //Error
+            }
 
         }
 
