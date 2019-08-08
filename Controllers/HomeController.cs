@@ -12,11 +12,7 @@ namespace DigiEx.Controllers
     {
         public IActionResult Index()
         {
-<<<<<<< HEAD
             return View("Views/Home/LogIn.cshtml");
-=======
-            //return View("~/Views/Home/Pacientes.cshtml");
->>>>>>> ac0a9ba7ee151292d42a0e9f23070d00147aed17
         }
 
         public IActionResult Historia()
