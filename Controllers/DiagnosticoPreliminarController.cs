@@ -17,6 +17,7 @@ namespace DigiEx.Controllers
             try
             {
                 DBConectionController.con.Open();
+
                 string query = "INSERT INTO dbo.DiagnosticoPreliminar VALUES (FechaDiagnostico = @fechaDiagnostico, " +
                     "ECPreContemplacion = @ecPreContemplacion, " +
                     "ECContemplacion = @ecContemplacion," +
