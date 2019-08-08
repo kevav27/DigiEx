@@ -8,12 +8,12 @@ using DigiEx.Models;
 
 namespace DigiEx.Controllers
 {
-    public class PersonController : IDataBaseMethods
+    public class ProyectoVidaController : IDataBaseMethods
     {
 
         public void addElement(object o)
         {
-            PersonaModel persona = (PersonaModel)o;
+            ProyectoVidaModel proyectoVida = (ProyectoVidaModel)o;
 
         }
 
@@ -32,5 +32,4 @@ namespace DigiEx.Controllers
             throw new NotImplementedException();
         }
     }
-
 }

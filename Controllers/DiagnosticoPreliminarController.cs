@@ -17,7 +17,7 @@ namespace DigiEx.Controllers
 
         }
 
-        public void editElement(int id)
+        public void editElement(int id, object o)
         {
             throw new NotImplementedException();
         }
