@@ -13,7 +13,7 @@ namespace DigiEx.Controllers
 
         public void addElement(object o)
         {
-            HITratemientoyConsumoModel hITratemientoyConsumo = (HITratemientoyConsumoModel)o;
+            HITratamientoyConsumoModel tratamientoyConsumo = (HITratamientoyConsumoModel)o;
             try
             {
                 DBConectionController.con.Open();
@@ -40,24 +40,24 @@ namespace DigiEx.Controllers
 
                 SqlCommand addTratamiento = new SqlCommand(query, DBConectionController.con);
 
-                addTratamiento.Parameters.AddWithValue("tcRecibidoTratamiento", hITratemientoyConsumo.tcRecibidoTratamiento);
-                addTratamiento.Parameters.AddWithValue("tcRecibidoTratamientoDesc", hITratemientoyConsumo.tcRecibidoTratamientoDesc);
-                addTratamiento.Parameters.AddWithValue("tcAtendieron", hITratemientoyConsumo.tcAtendieron);
-                addTratamiento.Parameters.AddWithValue("tcAtendieronDesc", hITratemientoyConsumo.tcAtendieronDesc);
-                addTratamiento.Parameters.AddWithValue("tcCompletoTratamiento", hITratemientoyConsumo.tcCompletoTratamiento);
-                addTratamiento.Parameters.AddWithValue("tcCompletoTratamientoDesc", hITratemientoyConsumo.tcCompletoTratamientoDesc);
-                addTratamiento.Parameters.AddWithValue("tcTratamientoAntes", hITratemientoyConsumo.tcTratamientoAntes);
-                addTratamiento.Parameters.AddWithValue("tcConsultasDrogas", hITratemientoyConsumo.tcConsultasDrogas);
-                addTratamiento.Parameters.AddWithValue("tcInterrumpidoConsumo", hITratemientoyConsumo.tcInterrumpidoConsumo);
-                addTratamiento.Parameters.AddWithValue("tcMotivoInterrupcion", hITratemientoyConsumo.tcMotivoInterrupcion);
-                addTratamiento.Parameters.AddWithValue("tcMotivoInterrupcionDesc", hITratemientoyConsumo.tcMotivoInterrupcionDesc);
-                addTratamiento.Parameters.AddWithValue("tcMotivoConsumir", hITratemientoyConsumo.tcMotivoInterrupcion);
-                addTratamiento.Parameters.AddWithValue("tcMotivoConsumirDesc", hITratemientoyConsumo.tcMotivoInterrupcionDesc);
-                addTratamiento.Parameters.AddWithValue("tcActitudPareja", hITratemientoyConsumo.tcActitudPareja);
-                addTratamiento.Parameters.AddWithValue("tcActitudFamilia", hITratemientoyConsumo.tcActitudFamilia);
-                addTratamiento.Parameters.AddWithValue("tcTrabajo_CentroEducativo", hITratemientoyConsumo.tcTrabajo_CentroEducativo);
-                addTratamiento.Parameters.AddWithValue("tcTrabajo_CentroEducativoDesc", hITratemientoyConsumo.tcTrabajo_CentroEducativoDesc);
-                addTratamiento.Parameters.AddWithValue("tcActitudCompaneros", hITratemientoyConsumo.tcActitudCompaneros);
+                addTratamiento.Parameters.AddWithValue("tcRecibidoTratamiento", tratamientoyConsumo.tcRecibidoTratamiento);
+                addTratamiento.Parameters.AddWithValue("tcRecibidoTratamientoDesc", tratamientoyConsumo.tcRecibidoTratamientoDesc);
+                addTratamiento.Parameters.AddWithValue("tcAtendieron", tratamientoyConsumo.tcAtendieron);
+                addTratamiento.Parameters.AddWithValue("tcAtendieronDesc", tratamientoyConsumo.tcAtendieronDesc);
+                addTratamiento.Parameters.AddWithValue("tcCompletoTratamiento", tratamientoyConsumo.tcCompletoTratamiento);
+                addTratamiento.Parameters.AddWithValue("tcCompletoTratamientoDesc", tratamientoyConsumo.tcCompletoTratamientoDesc);
+                addTratamiento.Parameters.AddWithValue("tcTratamientoAntes", tratamientoyConsumo.tcTratamientoAntes);
+                addTratamiento.Parameters.AddWithValue("tcConsultasDrogas", tratamientoyConsumo.tcConsultasDrogas);
+                addTratamiento.Parameters.AddWithValue("tcInterrumpidoConsumo", tratamientoyConsumo.tcInterrumpidoConsumo);
+                addTratamiento.Parameters.AddWithValue("tcMotivoInterrupcion", tratamientoyConsumo.tcMotivoInterrupcion);
+                addTratamiento.Parameters.AddWithValue("tcMotivoInterrupcionDesc", tratamientoyConsumo.tcMotivoInterrupcionDesc);
+                addTratamiento.Parameters.AddWithValue("tcMotivoConsumir", tratamientoyConsumo.tcMotivoInterrupcion);
+                addTratamiento.Parameters.AddWithValue("tcMotivoConsumirDesc", tratamientoyConsumo.tcMotivoInterrupcionDesc);
+                addTratamiento.Parameters.AddWithValue("tcActitudPareja", tratamientoyConsumo.tcActitudPareja);
+                addTratamiento.Parameters.AddWithValue("tcActitudFamilia", tratamientoyConsumo.tcActitudFamilia);
+                addTratamiento.Parameters.AddWithValue("tcTrabajo_CentroEducativo", tratamientoyConsumo.tcTrabajo_CentroEducativo);
+                addTratamiento.Parameters.AddWithValue("tcTrabajo_CentroEducativoDesc", tratamientoyConsumo.tcTrabajo_CentroEducativoDesc);
+                addTratamiento.Parameters.AddWithValue("tcActitudCompaneros", tratamientoyConsumo.tcActitudCompaneros);
 
                 addTratamiento.ExecuteNonQuery();
                 DBConectionController.con.Close();

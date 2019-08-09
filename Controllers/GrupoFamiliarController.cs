@@ -15,6 +15,32 @@ namespace DigiEx.Controllers
         {
             GrupoFamiliarModel grupoFamiliar = (GrupoFamiliarModel)o;
 
+            try
+            {
+                DBConectionController.con.Open();
+
+                string query = "INSERT INTO dbo.GrupoFamiliar VALUES (GFNombre = @gfNombre, " +
+                    "GFRelacion = @gfRelacion, " +
+                    "GFEscolaridad = @gfEscolaridad, " +
+                    "GFOcupacion = @gfOcupacion, " +
+                    "GFIngresos = @gfIngresos)";
+
+                SqlCommand addGrupoFamiliar = new SqlCommand(query, DBConectionController.con);
+
+                addGrupoFamiliar.Parameters.AddWithValue("gfNombre", grupoFamiliar.gfNombre);
+                addGrupoFamiliar.Parameters.AddWithValue("gfRelacion", grupoFamiliar.gfRelacion);
+                addGrupoFamiliar.Parameters.AddWithValue("gfEscolaridad", grupoFamiliar.gfEscolaridad);
+                addGrupoFamiliar.Parameters.AddWithValue("gfOperacion", grupoFamiliar.gfOcupacion);
+                addGrupoFamiliar.Parameters.AddWithValue("gfIngresos", grupoFamiliar.gfIngresos);
+
+                addGrupoFamiliar.ExecuteNonQuery();
+                DBConectionController.con.Close();
+            }
+            catch (Exception e)
+            {
+                //error
+            }
+
         }
 
         public void editElement(int id, object o)

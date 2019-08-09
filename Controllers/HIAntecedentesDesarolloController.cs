@@ -13,8 +13,30 @@ namespace DigiEx.Controllers
     {
         public void addElement(object o)
         {
-            HIAntecedentesDesarolloModel antecedentesDesarollo = (HIAntecedentesDesarolloModel)o;
+            HIAntecedentesDesarrolloModel antecedentesDesarollo = (HIAntecedentesDesarrolloModel)o;
 
+            try
+            {
+                DBConectionController.con.Open();
+
+                string query = "INSERT INTO dbo.HIAntecedentesDesarrollo VALUES (ADDesarrollo = @adDesarrollo, " +
+                    "ADDesarrolloDesc = @adDesarrolloDesc, " +
+                    "ADOtros = @adOtros)";
+
+                SqlCommand addAntecedentesDesarrollo = new SqlCommand(query, DBConectionController.con);
+
+                addAntecedentesDesarrollo.Parameters.AddWithValue("adDesarrollo", antecedentesDesarollo.adDesarrollo);
+                addAntecedentesDesarrollo.Parameters.AddWithValue("adDesarrolloDesc", antecedentesDesarollo.adDesarrolloDesc);
+                addAntecedentesDesarrollo.Parameters.AddWithValue("adOtros", antecedentesDesarollo.adOtros);
+                
+
+                addAntecedentesDesarrollo.ExecuteNonQuery();
+                DBConectionController.con.Close();
+            }
+            catch (Exception e)
+            {
+                //error
+            }
         }
 
         public void editElement(int id, object o)
