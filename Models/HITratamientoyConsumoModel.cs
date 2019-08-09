@@ -22,8 +22,6 @@ namespace DigiEx.Models
         public string tcInterrumpidoConsumoDesc { get; set; }
         public string tcMotivoInterrupcion { get; set; }
         public string tcMotivoInterrupcionDesc { get; set; }
-        public string tcMotivoConsumir { get; set; }
-        public string tcMotivoConsumirDesc { get; set; }
         public string tcActitudPareja { get; set; }
         public string tcActitudFamilia { get; set; }
         public string tcTrabajo_CentroEducativo { get; set; }
