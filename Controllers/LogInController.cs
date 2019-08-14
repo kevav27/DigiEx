@@ -14,13 +14,13 @@ namespace DigiEx.Controllers
             try
             {
                 DBConectionController.con.Open();
-                SqlCommand userDB = new SqlCommand("SELECT User FROM dbo.LoginUsuario WHERE User = "+user);
+                SqlCommand userDB = new SqlCommand("SELECT User FROM dbo.LoginUsuario WHERE Usuario = "+user);
                 SqlCommand passwordDB = new SqlCommand("SELECT User FROM dbo.LoginUsuario WHERE Password = "+password);
                 DBConectionController.con.Close();
 
                 if (user.Equals(userDB) && password.Equals(passwordDB))
                 {
-                    //se ingresa a la pantalla principal de los servicios
+                    
                 }
                 else
                 {

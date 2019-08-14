@@ -8,7 +8,7 @@ namespace DigiEx.Models
     interface IDataBaseMethods
     {
         void addElement(Object o); //que le ingrese un modelo por parámetro
-        void editElement(int id);
+        void editElement(int id, object o);
         void findElement(int id);
         void fetchElement(string f);
     }

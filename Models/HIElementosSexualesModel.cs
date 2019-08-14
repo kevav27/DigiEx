@@ -10,31 +10,31 @@ namespace DigiEx.Models
     //Todos las variables con terminacion Desc pueden ser nulas dependiendo de la respuesta de su contra parte
     public class HIElementosSexualesModel
     {
-        private string esUsoCondon { get; set; }
-        private string esMetodoPlanificacion { get; set; }
-        private string esMotivoAnticonceptivos { get; set; }
-        private string esSexoOral { get; set; }
-        private string esSexoAnal { get; set; }
-        private string esSentimientoHombreMujer { get; set; }
-        private string esSentimientoHombreMujerDesc { get; set; }
-        private string esRopaSexoOpuesto { get; set; }
-        private string esGenitalesDesconocidos { get; set; }
-        private string esFaltaDeseoSexual { get; set; }
-        private string esMalestares { get; set; }
-        private string esRelacionesDesconocidos { get; set; }
-        private string esObjetosSexuales { get; set; }
-        private string esMenoresEdad { get; set; }
-        private string esRelacionesAnimales { get; set; }
-        private string esLastimadoRelaciones { get; set; }
-        private string esDisfuncionErectil { get; set; }
-        private string esEyaculacionPrecoz { get; set; }
-        private string esDificultadPenetrar { get; set; }
-        private string esLubricacionGenital { get; set; }
-        private string esOrientacionSexual { get; set; }
-        private string esConsecuenciaDrogas { get; set; }
-        private string esRechazoRelaciones { get; set; }
-        private string esAusenciaPlacer { get; set; }
-        private string esImaginacionSexual { get; set; }
+        public string esUsoCondon { get; set; }
+        public string esMetodoPlanificacion { get; set; }
+        public string esMotivoAnticonceptivos { get; set; }
+        public string esSexoOral { get; set; }
+        public string esSexoAnal { get; set; }
+        public string esSentimientoHombreMujer { get; set; }
+        public string esSentimientoHombreMujerDesc { get; set; }
+        public string esRopaSexoOpuesto { get; set; }
+        public string esGenitalesDesconocidos { get; set; }
+        public string esFaltaDeseoSexual { get; set; }
+        public string esMalestares { get; set; }
+        public string esRelacionesDesconocidos { get; set; }
+        public string esObjetosSexuales { get; set; }
+        public string esMenoresEdad { get; set; }
+        public string esRelacionesAnimales { get; set; }
+        public string esLastimadoRelaciones { get; set; }
+        public string esDisfuncionErectil { get; set; }
+        public string esEyaculacionPrecoz { get; set; }
+        public string esDificultadPenetrar { get; set; }
+        public string esLubricacionGenital { get; set; }
+        public string esOrientacionSexual { get; set; }
+        public string esConsecuenciaDrogas { get; set; }
+        public string esRechazoRelaciones { get; set; }
+        public string esAusenciaPlacer { get; set; }
+        public string esImaginacionSexual { get; set; }
 
         public HIElementosSexualesModel()
         {

@@ -11,9 +11,9 @@ namespace DigiEx.Models
     //Todos las variables con terminacion Desc pueden ser nulas dependiendo de la respuesta de su contra parte
     public class HIAntecedentesDesarrolloModel
     {
-        private string adDesarrollo { get; set; }
-        private string adDesarrolloDesc { get; set; }
-        private string adOtros { get; set; }
+        public string adDesarrollo { get; set; }
+        public string adDesarrolloDesc { get; set; }
+        public string adOtros { get; set; }
 
         public HIAntecedentesDesarrolloModel()
         {

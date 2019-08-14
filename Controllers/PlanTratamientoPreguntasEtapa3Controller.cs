@@ -8,36 +8,21 @@ using DigiEx.Models;
 
 namespace DigiEx.Controllers
 {
-    public class PersonController : PersonModel, IDataBaseMethods
+    public class PlanTratamientoPreguntasEtapa3Controller : IDataBaseMethods
     {
 
         public void addElement(object o)
         {
-            PersonaModel persona = (PersonaModel)o;
-            try
-            {
-                DBConectionController.con.Open();
-                string query = "INSERT INTO dbo.Persona VALUES()";
-                
-
-            }catch(Exception e)
-            {
-                //Error
-            }
+            PlanTratamientoPreguntasEtapa3Model planTratamientoPreguntasEtapa3 = (PlanTratamientoPreguntasEtapa3Model)o;
 
         }
 
-        public void editElement()
+        public void editElement(int id, object o)
         {
             throw new NotImplementedException();
         }
 
-        public void fetchElement()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void findElement()
+        public void fetchElement(string f)
         {
             throw new NotImplementedException();
         }

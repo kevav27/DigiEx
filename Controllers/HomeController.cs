@@ -12,7 +12,7 @@ namespace DigiEx.Controllers
     {
         public IActionResult Index()
         {
-            return View("~/Views/Home/Pacientes.cshtml");
+            return View("Views/Home/LogIn.cshtml");
         }
 
         public IActionResult Historia()
@@ -47,7 +47,7 @@ namespace DigiEx.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View();
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
