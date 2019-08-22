@@ -20,6 +20,7 @@ namespace DigiEx.Models
         public string esRopaSexoOpuesto { get; set; }
         public string esGenitalesDesconocidos { get; set; }
         public string esFaltaDeseoSexual { get; set; }
+        public string esObservarRelaciones { get; set; }
         public string esMalestares { get; set; }
         public string esRelacionesDesconocidos { get; set; }
         public string esObjetosSexuales { get; set; }
