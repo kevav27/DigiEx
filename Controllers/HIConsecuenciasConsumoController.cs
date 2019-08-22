@@ -33,6 +33,9 @@ namespace DigiEx.Controllers
                 addConsecuenciasConsumo.ExecuteNonQuery();
                 DBConectionController.con.Close();
 
+            }catch (Exception e)
+            {
+                //Error
             }   
         }
 
