@@ -17,7 +17,7 @@ namespace DigiEx.Controllers
 
             try
             {
-                DBConectionController.conn.Open();
+                DBConectionController.con.Open();
 
                 string query = "INSERT INTO dbo.HIPatronConsumo VALUES (PCLugarConsumo = @pcLugarConsumo, " + 
                     "PCLugarConsumoDesc = @pcLugarConsumoDesc, " + 
@@ -30,7 +30,7 @@ namespace DigiEx.Controllers
                     "PCNivelConsumo = @pcNivelConsumo, " + 
                     "PCDrogasUsadasUltimamente = @pcDrogasUsdasUltimamente)";
 
-                SqlCommand addPatronConsumo = new SqlCommand(query, DBConectionController.conn);
+                SqlCommand addPatronConsumo = new SqlCommand(query, DBConectionController.con);
                 addPatronConsumo.Parameters.AddWithValue("pcLugarConsumo", patronConsumo.pcLugarConsumo);
                 addPatronConsumo.Parameters.AddWithValue("pcLugarConsumoDesc", patronConsumo.pcLugarConsumoDesc);
                 addPatronConsumo.Parameters.AddWithValue("pcQuienesConsumo", patronConsumo.pcQuienesConsumo);

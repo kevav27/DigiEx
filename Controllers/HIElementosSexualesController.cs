@@ -17,7 +17,7 @@ namespace DigiEx.Controllers
 
             try
             {
-                DBConectionController.conn.Open();
+                DBConectionController.con.Open();
 
                 string query = "INSERT INTO dbo.HIElementosSexuales VALUES (ESUsoCondon = @esUsoCondon, )" + 
                     "ESMetodoPlanificacion = @esMetodoPlanificacion, " + 
@@ -46,7 +46,7 @@ namespace DigiEx.Controllers
                     "ESAusenciaPlacer = @esAusenciaPlacer, " + 
                     "ESImaginacionSexual = @esImaginacionSexual)";
 
-                SqlCommand addElementosSexuales = new SqlCommand(query, DBConectionController.conn);
+                SqlCommand addElementosSexuales = new SqlCommand(query, DBConectionController.con);
                 addElementosSexuales.Parameters.AddWithValue("esUsoCondon", elementosSexuales.esUsoCondon);
                 addElementosSexuales.Parameters.AddWithValue("esMetodoPlanificacion", elementosSexuales.esMetodoPlanificacion);
                 addElementosSexuales.Parameters.AddWithValue("esMotivoAnticonceptivos", elementosSexuales.esMotivoAnticonceptivos);

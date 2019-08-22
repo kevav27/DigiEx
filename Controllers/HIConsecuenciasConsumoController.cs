@@ -17,7 +17,7 @@ namespace DigiEx.Controllers
 
             try
             {
-                DBConectionController.conn.Open();
+                DBConectionController.con.Open();
 
                 String query = "INSERT INTO dbo.HIConsecuenciasConsumo VALUES (CCConsumoAfectado = @ccConsumoAfectado, " + 
                     "CCConsumoAfectadoDesc = @ccConsumoAfectadoDesc, " + 
