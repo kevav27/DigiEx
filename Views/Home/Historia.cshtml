@@ -1,7 +1,47 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Log In</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="historia.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="expedientes.html">Expedientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Pacientes.html">Paciente</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="estudio.html">Estudio Socioeconomico</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historial Longitudinal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="diagnos.html">Diagnostico Social</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tratam.html">Plan de Tratamiento</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="engreso.html">Plan de Engreso</a>
+            </li>
+        </ul>
+    </nav>
+
     <div class="container">
 
-        <divclass="container" style="padding: 70px;">
+        <div id="div-buscador" class="container" style="padding: 70px;">
             <h6>Buscar paciente:</h6>
             <form class="form-inline" action="/action_page.php">
                 <input type="text" class="form-control mb-2 mr-sm-2" id="id#" placeholder="Identificador" name="id#">
@@ -11,8 +51,9 @@
                 <button type="submit" class="btn btn-primary mb-2">Buscar</button>
             </form>
         </div>
-
-        <label for="nomb" class="mb-2 mr-sm-2"> Persona o institución que le envió al internamiento:</label>
+		
+		<div id="div-name">
+		<label id = "lbl-nombre" for="nomb" class="mb-2 mr-sm-2"> Persona o institución que le envió al internamiento:</label>
         <select name="cars" class="custom-select">
             <option selected> Seleccionar</option>
             <option value="Familia">Familia</option>
@@ -34,7 +75,8 @@
             <option value="PANI">PANI</option>
             <option value="Medio Comunicación Colectiva">Medio Comunicación Colectiva</option>
             <option value="Otro, especifique">Otro, especifique</option>
-        </select>
+        </select>		
+		</div>       
 
         <div  id="lmap" class="container" style="padding: 1px;">
             <h5>DATOS DE INTERNAMIENTO</h5>
@@ -324,14 +366,14 @@
         </div>
 
         <div class="container" style="padding: 70px;">
-            <h2>
+            <h3>
                 CONSECUENCIAS DEL CONSUMO DE DROGAS
-            </h2>
+            </h3>
             <form class="form-inline" action="/action_page.php">
 
                 
                 <div id="div3-1">
-				<label for="Ape1.1" class="mb-2 mr-sm-2">El consumo de drogas me ha afectado en:</label>
+				<label id="lbl3-0"for="Ape1.1" class="mb-2 mr-sm-2">El consumo de drogas me ha afectado en:</label>
 				<select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Mi familia">Mi familia</option>
@@ -347,144 +389,145 @@
 				</div>
 
                 <div id="div3-38">
-				<label id="lbl3-1" for="Ape1.1" class="mb-2 mr-sm-2" font-family="italic">Antecedentes familiares:</label>
-                
-				<div id="div3-2">
-				<label>
+				<label id="lbl3-0038" for="Ape1.1" class="mb-2 mr-sm-2">Antecedentes familiares:</label>
+				
+				<div id="div3-00">
+				<label id="lbl3-00">
                     <input type="checkbox" id="cb1" value="option1"> Hogar Desintegrado <br>
                 </label>
 				</div>
 				
-				<div id="div3-3">
-				<label>
-                    <input type="checkbox" id="cb2" value="option2"> Enfermedades mentales <br>
+				<div id="div3-01">
+				<label id="lbl3-01">
+				<input type="checkbox" value="option2"> Enfermedades mentales <br>
                 </label>
 				</div>
 				
-				<div id="div3-4">
-				<label>
+				<div id="div3-02">
+				<label id="lbl3-02">
                     <input type="checkbox" id="cb3" value="option3"> Discapacidades <br>
                 </label>
 				</div>
 				
-				<div id="div3-5">
-				<label>
+				<div id="div3-03">
+				<label id="lbl3-03">
                     <input type="checkbox" id="cb4" value="option4"> Adicción de drogas <br>
                 </label>
 				</div>
 				
-				<div id="div3-6">
-				<label>
+				<div id="div3-04">
+				<label id="lbl3-04">
                     <input type="checkbox" id="cb5" value="option5"> Ausencia de afecto
                 </label>
 				</div>
 				
-				<div id="div3-7">
-				<label>
+				<div id="div3-05">
+				<label id="lbl3-05">
                     <input type="checkbox" id="cb6" value="option6"> Adicción a la comida
                 </label>
 				</div>
 				
-				<div id="div3-8">
-				<label>
-                    <input type="checkbox" id="cb7" value="option7"> Malas relaciones interpersonales
+				<div id="div3-06">
+				<label id="lbl3-06">
+                    <input type="checkbox" value="option7"> Malas relaciones interpersonales
                 </label>
 				</div>
 				
-				<div id="div3-9">
-				<label>
+				<div id="div3-07">
+				<label id="lbl3-07">
                     <input type="checkbox" id="cb8" value="option8"> Adicción de sexo
                 </label>
 				</div>
 				
-				<div id="div3-10">
-				<label>
+				<div id="div3-08">
+				<label id="lbl3-08">
                     <input type="checkbox" id="cb9" value="option9"> Enfermedades venéreas
                 </label>
 				</div>
 				
-				<div id="div3-11">
-				<label>
+				<div id="div3-09">
+				<label id="lbl3-09" >
                     <input type="checkbox" id="cb10" value="option10"> Hiperactividad o hipo actividad
                 </label>
 				</div>
 				
-				<div id="div3-12">
-				<label>
+				<div id="div3-010">
+				<label id="lbl3-010">
                     <input type="checkbox" id="cb11" value="option11"> Déficit de atención
                 </label>
 				</div>
 				
-				<div id="div3-13">
-				<label>
+				<div id="div3-011">
+				<label id="lbl3-011">
                     <input type="checkbox" id="cb12" value="option12"> HIV/SIDA
                 </label>
 				</div>
 				
-				<div id="div3-14">
-				<label>
+				<div id="div3-012">
+				<label id="lbl3-012">
                     <input type="checkbox" id="cb13" value="option13"> Nerviosismo
                 </label>
 				</div>
 				
-				<div id="div3-15">
-				<label>
+				<div id="div3-013">
+				<label id="lbl3-013">
                     <input type="checkbox" id="cb14" value="option14"> Depresión
                 </label>
 				</div>
 				
-				<div id="div3-16">
-				<label>
+				<div id="div3-014">
+				<label id="lbl3-014">
                     <input type="checkbox" id="cb15" value="option15"> Alcoholismo
                 </label>
 				</div>
 				
-				<div id="div3-17">
-				<label>
-                    <input type="checkbox" id="cb16" value="option16"> Violencia doméstica
+				<div id="div3-015">
+				<label id="lbl3-015">
+                    <input id="lbl3-011" type="checkbox" id="cb16" value="option16"> Violencia doméstica
                 </label>
 				</div>
-				</div>
 				
-				<div id="div3-39">
+				</div> <!-- Fin Div Antecedentes Familiares-->
+				
+				<div id="div3-39">				
 				<label id="lbl3-2" for="Ape1.1" class="mb-2 mr-sm-2">Antecedentes personales:</label>
                 
 				<div id="div3-20">
-				<label>
+				<label id="lbl3-020">
                     <input type="checkbox" id="cb1" value="option1"> Cardio/respiratorios
                 </label>
 				</div>
 				
 				<div id="div3-21">
-				<label>
+				<label id="lbl3-021">
                     <input type="checkbox" id="cb2" value="option2"> Gastrointestinales
                 </label>
 				</div>
 				
 				
 				<div id="div3-22">
-				<label>
-                    <input type="checkbox" id="cb3" value="option3"> Dermatológicos
+				<label id="lbl3-022">
+                    <input  type="checkbox" id="cb3" value="option3"> Dermatológicos
                 </label>
 				</div>
 				
 				
 				<div id="div3-23">
-				<label>
+				<label id="lbl3-023">
                     <input type="checkbox" id="cb4" value="option4"> Alérgicos
                 </label>
 				</div>
 				
 				
 				<div id="div3-24">
-				<label>
+				<label id="lbl3-024">
                     <input type="checkbox" id="cb5" value="option5"> Urinarios
                 </label>
 				</div>
 				
 				
 				<div id="div3-25">
-				<label>
+				<label id="lbl3-025">
                     <input type="checkbox" id="cb6" value="option6"> Genéticos/congénitos
                 </label>
 				</div>
@@ -492,100 +535,96 @@
 				
 				
 				<div id="div3-26">
-				<label>
+				<label id="lbl3-026">
                     <input type="checkbox" id="cb7" value="option7"> Malas relaciones interpersonales
                 </label>
 				</div>
 				
 				
 				<div id="div3-27">
-				<label>
+				<label id="lbl3-027">
                     <input type="checkbox" id="cb8" value="option8"> Transtornos de la alimentación
                 </label>
 				</div>
 				
 				
 				<div id="div3-28">
-				<label>
+				<label id="lbl3-028">
                     <input type="checkbox" id="cb9" value="option9"> Trastornos afectivos
                 </label>
 				</div>
 				
 				
 				<div id="div3-29">
-				<label>
+				<label id="lbl3-029">
                     <input type="checkbox" id="cb10" value="option10"> Trastornos psiquiátricos
                 </label>
 				</div>
 				
 				
 				<div id="div3-30">
-				<label>
+				<label id="lbl3-030">
                     <input type="checkbox" id="cb11" value="option11"> Déficit de atención
                 </label>
 				</div>
 				
 				
 				<div id="div3-31">
-				<label>
+				<label id="lbl3-031">
                     <input type="checkbox" id="cb12" value="option12"> Hiperactividad o hiperactividad
                 </label>
 				</div>
 				
 				
 				<div id="div3-32">
-				<label>
+				<label id="lbl3-032">
                     <input type="checkbox" id="cb13" value="option13"> Adicción a la comida
                 </label>
 				</div>
 				
 				
 				<div id="div3-33">
-				<label>
+				<label id="lbl3-033">
                     <input type="checkbox" id="cb14" value="option14"> Agresividad
                 </label>
 				</div>
 				
 				
 				<div id="div3-34">
-				<label>
+				<label id="lbl3-034">
                     <input type="checkbox" id="cb15" value="option15"> Enfermedades venéreas
                 </label>
 				</div>
 				
 				
 				<div id="div3-35">
-				<label>
+				<label id="lbl3-035">
                     <input type="checkbox" id="cb16" value="option16"> Adicción al sexo
                 </label>
 				</div>
 				
 				
 				<div id="div3-36">
-				<label>
+				<label id="lbl3-036">
                     <input type="checkbox" id="cb17" value="option17"> Adicción al juego
                 </label>
 				</div>
 				
 				
 				<div id="div3-37">
-				<label>
+				<label id="lbl3-037">
                     <input type="checkbox" id="cb18" value="option18"> Vagancia
                 </label>
+				</div>				
 				</div>
-				
-				</div>
-				
-				
-				
-                <div id="div-btn">
+				<div id="div-btn">
 				<button type="submit" class="btn btn-primary mb-2">Guardar</button>
 				</div>
 
         </div>
 
         <div class="container" style="padding: 70px;">
-            <h2>ANTECEDENTES SOBRE HIV</h2>
+            <h4>ANTECEDENTES SOBRE HIV</h4>
 
             <label for="Ape1.1" class="mb-2 mr-sm-2">¿Uso de tatuajes?</label>
             <select name="cars" class="custom-select">
@@ -660,99 +699,171 @@
                 <option value="Hacer Manualidades">Hacer Manualidades</option>
             </select>
 
-            <button type="submit" class="btn btn-primary mb-2">Guardar</button>
+            <button id="btn_antec" type="submit" class="btn btn-primary mb-2">Guardar</button>
             </form>
         </div>
 
         <div class="container" style="padding: 70px;">
-            <h2>Buscar paciente:</h2>
+            <h2 id="Buscar_PacientDiv">Buscar paciente:</h2>
             <form class="form-inline" action="/action_page.php">
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">De desarrollo:</label>
+			
+			
+			<!-- first S4 division-->
+			<div id="div4-41">
+                <label id="lbl4-01" for="Ape1.1" class="mb-2 mr-sm-2">De desarrollo:</label>
                 
 				<div id="div4-1">
-				<label>
+				<label id="lbl4-1">
                     <input type="checkbox" id="cb1" value="option1"> Problemas de caminar, orinar, defecar, escribir
                 </label>
 				</div>
 				
 				<div id="div4-2">
-				<label>
+				<label id="lbl4-2">
                     <input type="checkbox" id="cb2" value="option2"> Retraso mental o enfermedad mental
                 </label>
 				</div>
 				
 				<div id="div4-3">
-				</div>
-                
-                <label>
+				<label id="lbl4-3">
                     <input type="checkbox" id="cb3" value="option3"> Ansiedad por separación de un ser querido
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-4">
+				<label id="lbl4-4">
                     <input type="checkbox" id="cb4" value="option4"> Problemas para aprender
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-5">
+				<label id="lbl4-5">
                     <input type="checkbox" id="cb5" value="option5"> Problemas para hablar
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-6">
+				<label id="lbl4-6">
                     <input type="checkbox" id="cb6" value="option6"> Problemas en el control de orinar o defecar
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-7">
+				<label id="lbl4-7">
                     <input type="checkbox" id="cb7" value="option7"> Défecit de atención
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-8">
+				<label id="lbl4-8">
                     <input type="checkbox" id="cb8" value="option8"> Transtornos de la alimentación
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-9">
+				<label id="lbl4-9">
                     <input type="checkbox" id="cb9" value="option9"> Terrores nocturnos
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-10">
+				<label id="lbl4-10">
                     <input type="checkbox" id="cb10" value="option10"> Conducta temeraria
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-11">
+				 <label id="lbl4-11">
                     <input type="checkbox" id="cb11" value="option11"> Crueldad con los animales
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-12">
+				<label id="lbl4-12">
                     <input type="checkbox" id="cb12" value="option12"> Robos/ hurtos
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-13">
+				<label id="lbl4-13">
                     <input type="checkbox" id="cb13" value="option13"> Desobedencia incorregible
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-14">
+				<label id="lbl4-14">
                     <input type="checkbox" id="cb14" value="option14"> Mitomania (invento continuo de historias irreales)
                 </label>
+				</div>
+			</div>
 
-                <label for="Ape1.1" class="mb-2 mr-sm-2">Otros:</label>
-                <label>
+				<!-- Fin de sección 1 de área 4-->
+				
+				<!-- División de de buscar paciente (Sec. 4) -->
+				
+				<div id="div4-38">
+                <label id="lbl4-02"for="Ape1.1" class="mb-2 mr-sm-2">Otros:</label>
+                
+				<div id="div4-15">
+				<label id="lbl4-15">
                     <input type="checkbox" id="cb1" value="option1"> Maltrato Psicológico
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-16">
+				<label id="lbl4-16">
                     <input type="checkbox" id="cb2" value="option2"> Maltrato físico
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-17">
+				<label id="lbl4-17">
                     <input type="checkbox" id="cb3" value="option3"> Maltrato moral
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-18">
+				<label id="lbl4-18">
                     <input type="checkbox" id="cb4" value="option4"> Desatención familiar
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-19">
+				<label id="lbl4-19">
                     <input type="checkbox" id="cb5" value="option5"> Abuso sexual
                 </label>
-                <label>
+				</div>
+				
+				<div id="div4-20">
+				<label id="lbl4-20">
                     <input type="checkbox" id="cb6" value="option6"> Falta de comunicación
                 </label>
-
-                <label for="Ape2.2" class="mb-2 mr-sm-2">Diga de quien recibió esos maltratos</label>
+				</div>				
+				</div> <!-- Fin sección 2 de area 4-->
+				
+				<div id="div4-21">
+				<label id="lbl4-1" for="Ape2.2" class="mb-2 mr-sm-2">Diga de quien recibió esos maltratos</label>
                 <input type="text" class="form-control mb-2 mr-sm-2" id="ape2.2" placeholder="Consultas en el ultimo año" name="ape2.2">
+				</div>
+				
+			
+                
+                
+                
+                
+                
+
+                
 
             </form>
         </div>
 
-        <div class="container" style="padding: 70px;">
+        <div id="div5-0" class="container" style="padding: 70px;">
             <h2>ANTECEDENTES SEXUALES Y DE CONDUCTA ACTUAL</h2>
             <form class="form-inline" action="/action_page.php">
 
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Cómo es su higiene habitacional?</label>
+                <div id="div5-1">
+				<label id="lbl5-1" for="Ape1.1" class="mb-2 mr-sm-2">¿Cómo es su higiene habitacional?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="No">No</option>
@@ -764,53 +875,69 @@
                     <option value="De religioso">De religioso</option>
                     <option value="Otro">Otro</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Ha tenido usted relaciones sexuales? </label>
+				</div>
+				
+				<div id="div5-3">
+				<label id="lbl5-2" for="Ape1.1" class="mb-2 mr-sm-2">¿Ha tenido usted relaciones sexuales? </label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Si">Si</option>
                     <option value="No">No</option>
                 </select>
-
-                <label for="Ape2.2" class="mb-2 mr-sm-2">Edad de su primer contacto sexual</label>
+				</div>
+				
+				<div id="div5-4">
+				<label id="lbl5-3" for="Ape2.2" class="mb-2 mr-sm-2">Edad de su primer contacto sexual</label>
                 <input type="text" class="form-control mb-2 mr-sm-2" id="ape2.2" placeholder="Consultas en el ultimo año" name="ape2.2">
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Masturbación durante la adolescencia? </label>
+				</div>
+				
+				<div id="div5-5">
+				<label id="lbl5-4" for="Ape1.1" class="mb-2 mr-sm-2">¿Masturbación durante la adolescencia? </label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Si">Si</option>
                     <option value="No">No</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Actualmente se masturba?</label>
+				</div>
+				
+				<div id="div5-6">
+				<label id="lbl5-5" for="Ape1.1" class="mb-2 mr-sm-2">¿Actualmente se masturba?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Si">Si</option>
                     <option value="No">No</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Sexo de la primera pareja sexual?</label>
+				</div>
+				
+				<div id="div5-7">
+				<label id="lbl5-6" for="Ape1.1" class="mb-2 mr-sm-2">¿Sexo de la primera pareja sexual?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Hombre">Hombre</option>
                     <option value="Mujer">Mujer</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Usted fue abusado (a) Sexualmente?</label>
+				</div>
+				
+				<div id="div5-8">
+				<label id="lbl5-7" for="Ape1.1" class="mb-2 mr-sm-2">¿Usted fue abusado (a) Sexualmente?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Si">Si</option>
                     <option value="No">No</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Actualmente tengo temor hacia la relación sexual?</label>
+				</div>
+				
+				<div id="div5-9">
+				<label id="lbl5-8" for="Ape1.1" class="mb-2 mr-sm-2">¿Actualmente tengo temor hacia la relación sexual?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Si">Si</option>
                     <option value="No">No</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿En el acto sexual usted es?</label>
+				</div>
+				
+				<div id="div5-10">
+				<label id="lbl5-9" for="Ape1.1" class="mb-2 mr-sm-2">¿En el acto sexual usted es?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Anorgasmico (no lo logro terminar).">Anorgasmico (no lo logro terminar).</option>
@@ -818,8 +945,10 @@
                     <option value="No sé">No sé</option>
                     <option value="No procede">No procede</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Corrientemente yo practico sexo?</label>
+				</div>
+				
+				<div id="div5-11">
+				<label id="lbl5-10" for="Ape1.1" class="mb-2 mr-sm-2">¿Corrientemente yo practico sexo?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="En pareja">En pareja</option>
@@ -827,16 +956,20 @@
                     <option value="Sexo colectivo">Sexo colectivo</option>
                     <option value="No procede">No procede</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">Yo prefiero tener relaciones sexuales con personas de:</label>
+				</div>
+				
+				<div id="div5-12">
+				<label id="lbl5-11" for="Ape1.1" class="mb-2 mr-sm-2">Yo prefiero tener relaciones sexuales con personas de:</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Mismo sexo que el mío">Mismo sexo que el mío</option>
                     <option value="Sexo diferente al mío">Sexo diferente al mío</option>
                     <option value="Ambos sexos">Ambos sexos</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿He practicado sexo bajo efectos de drogas en los 2 últimos años?</label>
+				</div>
+				
+				<div id="div5-13">
+				<label id="lbl5-12" for="Ape1.1" class="mb-2 mr-sm-2">¿He practicado sexo bajo efectos de drogas en los 2 últimos años?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Nunca">Nunca</option>
@@ -844,15 +977,20 @@
                     <option value="Casi siempre">Casi siempre</option>
                     <option value="Siempre">Siempre</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿He tenido relaciones incestuosas?</label>
+				</div>
+				
+				<div id="div5-14">
+				<label id="lbl5-13" for="Ape1.1" class="mb-2 mr-sm-2">¿He tenido relaciones incestuosas?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Si, especifique">Si, especifique</option>
                     <option value="No">No</option>
                 </select>
-
-                <button type="submit" class="btn btn-primary mb-2">Guardar</button>
+				</div>
+				
+				<div id="div5-15">
+				<button type="submit" class="btn btn-primary mb-2">Guardar</button>
+				</div>
             </form>
         </div>
 
@@ -860,16 +998,21 @@
         <div class="container" style="padding: 70px;">
             <h2>ELEMENTOS QUE INCORPORAR SUS PRÁCTICAS SEXUALES</h2>
             <form class="form-inline" action="/action_page.php">
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Uso continuo del condón en los últimos 5 años?</label>
+			
+			
+			
+			<div id="div6-1">
+			<label id="lbl6-1" for="Ape1.1" class="mb-2 mr-sm-2">¿Uso continuo del condón en los últimos 5 años?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Si">Si</option>
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">Método de planificación preferido</label>
+			</div>
+			
+			<div id="div6-2">
+			<label id="lbl6-2" for="Ape1.1" class="mb-2 mr-sm-2">Método de planificación preferido</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Condón">Condón</option>
@@ -882,8 +1025,10 @@
                     <option value="Ninguno">Ninguno</option>
                     <option value="No procede">No procede</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Motivo por el que uso anticonceptivos?</label>
+			</div>
+			
+			<div id="div6-3">
+			<label id="lbl6-3" for="Ape1.1" class="mb-2 mr-sm-2">¿Motivo por el que uso anticonceptivos?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Para no tener hijos">Para no tener hijos</option>
@@ -892,47 +1037,59 @@
                     <option value="No procede">No procede</option>
                     <option value="Otra">Otra</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Yo practico sexo oral?</label>
+			</div>
+			
+			<div id="div6-4">
+			<label id="lbl6-4" for="Ape1.1" class="mb-2 mr-sm-2">¿Yo practico sexo oral?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Si">Si</option>
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Yo practico sexo anal?</label>
+			</div>
+			
+			<div id="div6-5">
+			<label id="lbl6-5" for="Ape1.1" class="mb-2 mr-sm-2">¿Yo practico sexo anal?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Si">Si</option>
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Yo me siento mal de ser hombre o mujer?</label>
+			</div>
+			
+			<div id="div6-6">
+			<label id="lbl6-6" for="Ape1.1" class="mb-2 mr-sm-2">¿Yo me siento mal de ser hombre o mujer?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Si">Si</option>
                     <option value="No, Especifique">No, Especifique</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Uso ropa del sexo opuesto?</label>
+			</div>
+			
+			<div id="div6-7">
+			<label id="lbl6-7" for="Ape1.1" class="mb-2 mr-sm-2">¿Uso ropa del sexo opuesto?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Si">Si</option>
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">¿Yo enseño mis genitales a desconocidos?</label>
+			</div>
+			
+			<div id="div6-8">
+			<label id="lbl6-8" for="Ape1.1" class="mb-2 mr-sm-2">¿Yo enseño mis genitales a desconocidos?</label>
                 <select name="cars" class="custom-select">
                     <option selected> Seleccionar</option>
                     <option value="Si">Si</option>
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-9">
+			<label id="lbl6-9" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿Me gusta observar a otros teniendo relaciones sexuales?
                 </label>
                 <select name="cars" class="custom-select">
@@ -941,8 +1098,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-10">
+			<label id="lbl6-10" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿He tenido falta de deseo sexual por más de un año?
                 </label>
                 <select name="cars" class="custom-select">
@@ -951,8 +1110,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-11">
+			<label id="lbl6-11" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿En mis relaciones sexuales tengo malestar o sufrimientos?
                 </label>
                 <select name="cars" class="custom-select">
@@ -961,8 +1122,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-12">
+			<label id="lbl6-12" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿He tenido relaciones sexuales con personas desconocidas?
                 </label>
                 <select name="cars" class="custom-select">
@@ -971,8 +1134,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-13">
+			<label id="lbl6-13" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿Yo uso objetos inertes como medio de satisfacción sexual?
                 </label>
                 <select name="cars" class="custom-select">
@@ -981,8 +1146,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-14">
+			<label id="lbl6-14" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿Siendo mayor de edad, he tenido relaciones sexuales con menores de edad?
                 </label>
                 <select name="cars" class="custom-select">
@@ -991,8 +1158,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-15">
+			<label id="lbl6-15" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿He tenido relaciones sexuales con animales?
                 </label>
                 <select name="cars" class="custom-select">
@@ -1001,8 +1170,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-16">
+			<label id="lbl6-16" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿He sido humillado y/o lastimado, o he lastimado o humillado a otros en la relación sexual?
                 </label>
                 <select name="cars" class="custom-select">
@@ -1011,8 +1182,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-17">
+			<label id="lbl6-17" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿Tengo o tuve dificultad eréctil o de excitación?
                 </label>
                 <select name="cars" class="custom-select">
@@ -1021,8 +1194,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-18">
+			<label id="lbl6-18" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿Tengo eyaculación rápida o retardada  (solo para hombre)?
                 </label>
                 <select name="cars" class="custom-select">
@@ -1031,8 +1206,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-19">
+			<label id="lbl6-19" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿Tengo alguna dificultad para penetrar o ser penetrado (a)?
                 </label>
                 <select name="cars" class="custom-select">
@@ -1041,8 +1218,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-20">
+			<label id="lbl6-20" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿Tengo dificultad de lubricación genital (solo para mujeres)?
                 </label>
                 <select name="cars" class="custom-select">
@@ -1051,8 +1230,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-21">
+			<label id="lbl6-21" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿Tengo alguna dificultad para penetrar o ser penetrado (a)REPETIDA?
                 </label>
                 <select name="cars" class="custom-select">
@@ -1061,8 +1242,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-22">
+			<label id="lbl6-22" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿Yo me considero?
                 </label>
                 <select name="cars" class="custom-select">
@@ -1073,8 +1256,10 @@
                     <option value="Bisexual">Bisexual</option>
                     <option value="Travesti (transexual)">Travesti (transexual)</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-23">
+			<label id="lbl6-23" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿Tengo alguna consecuencia sexual por el uso de las drogas?
                 </label>
                 <select name="cars" class="custom-select">
@@ -1083,8 +1268,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-24">
+			<label id="lbl6-24" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿Yo rechazó tener actividad sexual?
                 </label>
                 <select name="cars" class="custom-select">
@@ -1093,8 +1280,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-25">
+			<label id="lbl6-25" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿Tengo ausencia de placer en las relaciones sexuales?
                 </label>
                 <select name="cars" class="custom-select">
@@ -1103,8 +1292,10 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div6-26">
+			<label id="lbl6-26" for="Ape1.1" class="mb-2 mr-sm-2">
                     ¿En las relaciones sexuales me imagino que estoy con otra persona?
                 </label>
                 <select name="cars" class="custom-select">
@@ -1113,8 +1304,17 @@
                     <option value="No">No</option>
                     <option value="No procede">No procede.</option>
                 </select>
-
-                <button type="submit" class="btn btn-primary mb-2">Buscar</button>
-            </form>
+			</div>
+			
+			<div id="div6-27">
+			<button type="submit" class="btn btn-primary mb-2">Buscar</button>
+			</div>
+			</form>
         </div>
 
+        </form>
+    </div>
+
+    </div>
+</body>
+</html>

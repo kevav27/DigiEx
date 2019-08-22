@@ -1,0 +1,283 @@
+#div-txt {
+	padding-bottom : 5px;
+	padding-top : 5px;
+	margin-left : 108px;
+}
+
+#Prim-Save0 {
+	background-color : pink;
+	margin-left : 700px;
+}
+
+#div1-1 {
+	position : absolute;
+	margin-top : -230px;
+}
+
+#div1-2 {
+	position : absolute;
+	margin-top : -175px;
+}
+
+#div1-3 {
+	position : absolute;
+	margin-top : -120px;
+}
+
+#div1-4 {
+	position : absolute;
+	margin-top : -75px;
+}
+
+#div1-5 {
+	position : absolute;
+	margin-top : -30px;
+	margin-bottom : -5px;
+}
+
+#div1-6 {
+	position : absolute;
+	margin-top : 35px;
+	margin-left : 450px;
+}
+
+#btn-Div {	
+	margin-bottom : 40px;
+	margin-left : 665px;
+}
+
+#btn-Save1 {
+	position : relative;
+	margin-top : 400px;
+	top : -70px;
+	margin-left : -150px;
+	margin-bottom : 100px;
+}
+
+#lbl1-1 {
+	display : inline;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-left : 5px;
+	padding-bottom : 5px;
+}
+
+#lbl1-2{
+	display : inline;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-left : 5px;
+	padding-bottom : 5px;
+}
+
+#lbl1-3 {
+	display : inline;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-left : 5px;
+	padding-bottom : 5px;
+}
+
+#lbl1-4 {
+	display : inline;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-left : 5px;
+	padding-bottom : 5px;
+}
+
+#lbl1-5 {
+	display : inline;
+	padding-top : 5px;
+	padding-right : 5px;
+	padding-left : 5px;
+	padding-bottom : 5px;
+}
+
+/*Inicio de etapa 2 */
+#etapa-2 {
+	position : absolute;
+	margin-top : -110px;
+	
+}
+
+#div2-1 {
+	margin-top : -70px;
+}
+
+#div2-2  {
+	margin-top : 3px;
+}
+
+#div2-3 {
+	margin-top : 8px;
+}
+
+#div2-4 {
+	margin-top : 9px;
+}
+
+#div2-5 {
+	margin-top : 10px;
+}
+
+#div2-6 {
+	margin-top : 11px;
+	margin-bottom : 80px;
+	margin-left : 450px;
+}
+
+#btn-Save2 {
+	margin-top : 70px;
+	margin-left : -150px;
+}
+
+#lbl2-1 {
+	display : inline;
+}
+
+#lbl2-2 {
+	display : inline;
+}
+
+#lbl2-3 {
+	display : inline;
+}
+
+#lbl2-4 {
+	display : inline;
+}
+
+#lbl2-5 {
+	display : inline;
+}
+
+/* Inicio de etapa 3*/
+
+#div3-1 {
+	position : absolute;
+	padding-left : 5px;
+	padding-right : 5px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	margin-top : 30px;
+}
+
+#div3-2 {
+	position : absolute;
+	padding-left : 5px;
+	padding-right : 5px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	margin-top : 90px;
+}
+
+#div3-3 {
+	position : absolute;
+	margin-top : 138px;
+	padding-left : 5px;
+	padding-right : 5px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-4 {
+	position : absolute;
+	margin-top : 186px;
+	padding-left : 5px;
+	padding-right : 5px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-5 {
+	position : absolute;
+	margin-top : 234px;
+	padding-left : 5px;
+	padding-right : 5px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-6 {
+	position : absolute;
+	margin-top : 282px;
+	padding-left : 5px;
+	padding-right : 5px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-7 {
+	position : absolute;
+	margin-top : 330px;
+	padding-left : 5px;
+	padding-right : 5px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-8 {
+	position : absolute;
+	margin-top : 378px;
+	padding-left : 5px;
+	padding-right : 5px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#div3-9 {
+	position : absolute;
+	margin-left : 445px;
+	margin-top : 446px;
+	padding-left : 5px;
+	padding-right : 5px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	margin-bottom : -650px;
+}
+
+#div3-10 {
+	position : absolute;
+	margin-left : 500px;
+	margin-top : 520px;
+	padding-left : 5px;
+	padding-right : 5px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#lbl3-1 {
+	display : inline;
+}
+
+#lbl3-2 {
+	display : inline;
+}
+
+#lbl3-3 {
+	display : inline;
+}
+
+#lbl3-4 {
+	display : inline;
+}
+
+#lbl3-5 {
+	display : inline;
+}
+
+#lbl3-6 {
+	display : inline;
+}
+
+#lbl3-7 {
+	display : inline;
+}
+
+#lbl3-8 {
+	display : inline;
+}
+
+
+	

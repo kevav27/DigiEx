@@ -1,0 +1,62 @@
+#div1-4 {
+	margin-bottom : -5px;
+	height : 500px;
+}
+
+#div1-2 {
+	margin-top : -70px;
+}
+
+#inp-PreContemp {
+	margin-left : 405px;
+	margin-top : -5px;
+}
+
+
+#inp-Contemp {
+	margin-left : 405px;
+	margin-top : -5px;
+}
+
+#inp-Determ {
+	margin-left : 405px;
+	margin-top : -5px;
+}
+
+#inp-Acc {
+	margin-left : 405px;
+	margin-top : -5px;
+}
+
+#inp-Mantenim {
+	margin-left : 405px;
+	margin-top : -80px;
+}
+
+#btn-Save {
+	margin-top : 70px;
+	margin-left : -150px;
+}
+
+#btn-Save2 {
+	margin-left : 600px;
+}
+
+/* Div de consumo de sustancias psicoactivas Guardar(?)*/
+#div3-1 {
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+/* Primer Div (segundo buscar paciente)*/
+#afa {
+	margin-bottom : -55px;
+	margin-top : 10px;
+	margin-left : 66px;
+}
+
+/* Div de Consumo de potencias preguntas*/
+#div4-1 {
+	margin-left : 105px;
+	width : 1140px;
+}
+

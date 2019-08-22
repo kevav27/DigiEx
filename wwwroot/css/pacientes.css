@@ -1,1 +1,18 @@
-.li{margin-left: 10px }
+#div1-1 {
+	position : absolute;
+	margin-top : -55px;
+	margin-left : 55px;
+	width : 875px;
+}
+
+#btn-Submit {
+	position : absolute;
+	margin-top : 950px;
+	margin-left : 40px;
+}
+
+#btn-Modificar {
+	position : absolute;
+	margin-top : 950px;
+	margin-left : 140px;
+}

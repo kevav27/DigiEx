@@ -1,6 +1,45 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Log In</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="diagnos.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-    <div class="container" style="padding: 70px;">
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="expedientes.html">Expedientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Pacientes.html">Paciente</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="estudio.html">Estudio Socioeconomico</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historial Longitudinal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="diagnos.html">Diagnostico Social</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tratam.html">Plan de Tratamiento</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="engreso.html">Plan de Engreso</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="div1-1" class="container" style="padding: 70px;">
         <h2>Buscar paciente:</h2>
         <form class="form-inline" action="/action_page.php">
             <input type="text" class="form-control mb-2 mr-sm-2" id="id#" placeholder="Identificador" name="id#">
@@ -11,51 +50,50 @@
         </form>
     </div>
 
-    <div class="container" style="padding: 1px;">
-        <h2>Buscar paciente:</h2>
+    <div id="div1-2" class="container" style="padding: 1px;">
+	<h2 id="afa">Buscar paciente:</h2>
+    <form class="form-inline" action="/action_page.php">
+		<div id="1-2" class="container" style="padding: 70px;">
+		<h2>Ubicación de las etapas de cambio:</h2>
         <form class="form-inline" action="/action_page.php">
-
-            <div class="container" style="padding: 70px;">
-                <h2>Ubicación de las etapas de cambio:</h2>
-                <form class="form-inline" action="/action_page.php">
-
-                    <label for="preContem" class="mb-2 mr-sm-2">Pre contemplación:</label>
-                    <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="preContem">
-
-                    <label for="contemplacion" class="mb-2 mr-sm-2">Contemplación:</label>
-                    <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="contemplacion">
-
-                    <label for="determinacion" class="mb-2 mr-sm-2">Determinación:</label>
-                    <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="determinacion">
-
-                    <label for="accion" class="mb-2 mr-sm-2">Acción:</label>
-                    <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="accion">
-
-                    <label for="mantenimiento" class="mb-2 mr-sm-2">Mantenimiento:</label>
-                    <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="mantenimiento">
-
-                    <button type="submit" class="btn btn-primary mb-2" name="btn_Guardar">Guardar</button>
+		
+		<label for="ced#" class="mb-2 mr-sm-2">Pre contemplación:</label>	
+		<input id="inp-PreContemp"type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="ced#">
+		<label for="ced#" class="mb-2 mr-sm-2">Contemplación:</label>
+		<input id="inp-Contemp" type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="ced#">
+		
+		<label for="ced#" class="mb-2 mr-sm-2">Determinación:</label>
+        <input id="inp-Determ" type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="ced#">
+		
+		<label for="ced#" class="mb-2 mr-sm-2">Acción:</label>
+		<input id="inp-Acc" type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="ced#">
+		
+		<label for="ced#" class="mb-2 mr-sm-2">Mantenimiento:</label>
+        <input id="inp-Mantenim" type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="ced#">
+		
+		<button id="btn-Save" type="submit" class="btn btn-primary mb-2">Guardar</button>
                 </form>
             </div>
-
-            <div class="container" style="padding: 1px;">
+	</div>
+	<div id="div3-1" class="container" style="padding: 1px;">
                 <h2>Consumo de sustancias psicoactivas:</h2>
                 <form class="form-inline" action="/action_page.php">
 
-                    <label for="ConsumoPsiDiario" class="mb-2 mr-sm-2">Diario:</label>
-                    <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="ConsumoPsiDiario">
+                    <label for="ced#" class="mb-2 mr-sm-2">Diario:</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="ced#">
 
-                    <label for="ConsumoPsiSemanal" class="mb-2 mr-sm-2">Semanal:</label>
-                    <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="ConsumoPsiSemanal">
+                    <label for="ced#" class="mb-2 mr-sm-2">Semanal:</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="ced#">
 
                     <label for="ced#" class="mb-2 mr-sm-2">Ocasional:</label>
                     <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="ced#">
 
                     <button type="submit" class="btn btn-primary mb-2">Guardar</button>
                 </form>
-            </div>
-
-            <label for="ced#" class="mb-2 mr-sm-2">¿Qué tipo de consumo presenta, si es Diario, Semanal, Ocasional de sustancias psicoactivas?</label>
+    </div>
+	
+	<div id="div4-1">
+	<label for="ced#" class="mb-2 mr-sm-2">¿Qué tipo de consumo presenta, si es Diario, Semanal, Ocasional de sustancias psicoactivas?</label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="ced#">
 
             <label for="ced#" class="mb-2 mr-sm-2">¿Cuál es la Patología Psiquiátrica recurrente? Indique según documento</label>
@@ -102,7 +140,9 @@
 
             <label for="ced#" class="mb-2 mr-sm-2">Recomendaciones para plan de tratamiento:</label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Fecha" name="ced#">
-
-            <button type="submit" class="btn btn-primary mb-2">Guardar</button>
+	</div>
+	<button id="btn-Save2" type="submit" class="btn btn-primary mb-2">Guardar</button>
         </form>
     </div>
+</body>
+</html>

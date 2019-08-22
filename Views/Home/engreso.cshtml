@@ -1,4 +1,43 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Plan de egreso</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href ="engreso.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="expedientes.html">Expedientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Pacientes.html">Paciente</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="estudio.html">Estudio Socioeconomico</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historial Longitudinal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="diagnos.html">Diagnostico Social</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tratam.html">Plan de Tratamiento</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="engreso.html">Plan de Engreso</a>
+            </li>
+        </ul>
+    </nav>
 
     <div class="container" style="padding: 70px;">
         <h2>Buscar paciente:</h2>
@@ -12,140 +51,186 @@
     </div>
 
     <div class="container" style="padding: 70px;">
-        <h5>Plan de Egreso:</h5>
+        <h5 id="PlanEgreso">Plan de Egreso:</h5>
         <form class="form-inline" action="/action_page.php">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		
+		<div id="div1-1">
+		<label id="lbl1-1" for="ced#" class="mb-2 mr-sm-2">
                 Fortalezas del Usuario al ingresar al tratamiento
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div1-2">
+		<label id="lbl1-2" for="ced#" class="mb-2 mr-sm-2">
                 Oportunidades del Usuario al ingresar al tratamiento
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div1-3">
+		<label id="lbl1-3" for="ced#" class="mb-2 mr-sm-2">
                 Debilidades del Usuario al ingresar al tratamiento
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div1-4">
+		<label id="lbl1-4" for="ced#" class="mb-2 mr-sm-2">
                 Amenazas del Usuario al ingresar al tratamiento
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
+		</div>
 
-            <button type="submit" class="btn btn-primary mb-2">Buscar</button>
+            <button id="btn-Save1" type="submit" class="btn btn-primary mb-2">Buscar</button>
         </form>
     </div>
 
     <div class="container" style="padding: 70px;">
-        <h5>Etapas:</h5>
+        <h5 id="divEtapas">Etapas:</h5>
         <form class="form-inline" action="/action_page.php">
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">Etapas: </label>
+		
+		<div id="div2-1">
+		<label id="lbl2-1" for="Ape1.1" class="mb-2 mr-sm-2">Etapas: </label>
             <select name="cars" class="custom-select">
                 <option selected> Seleccionar</option>
                 <option value="Etapa 1">Etapa 1</option>
                 <option value="Etapa 2">Etapa 2</option>
                 <option value="Etapa 3">Etapa 3</option>
             </select>
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div2-2">
+		 <label id="lbl2-2" for="ced#" class="mb-2 mr-sm-2">
                 Física y de salud
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <h6>Redes de apoyo</h6>
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<h6 id="Redes-Apoyo">Redes de apoyo</h6>
+		
+		<div id="div2-3">
+		<label id="lbl2-3" for="ced#" class="mb-2 mr-sm-2">
                 Familiar
             </label>
-            <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+            <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">		
+		</div>
+		
+		<div id="div2-4">
+		<label id="lbl2-4" for="ced#" class="mb-2 mr-sm-2">
                 Amistades
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div2-5">
+		<label id="lbl2-5" for="ced#" class="mb-2 mr-sm-2">
                 Grupo de apoyo
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div2-6">
+		 <label id="lbl2-6" for="ced#" class="mb-2 mr-sm-2">
                 Areas Laboral
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div2-7">		
+            <label id="lbl2-7" for="ced#" class="mb-2 mr-sm-2">
                 Área Judicial
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div2-8">
+		<label id="lbl2-8" for="ced#" class="mb-2 mr-sm-2">
                 Área Académica o técnica
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-
-
-            <button type="submit" class="btn btn-primary mb-2">Guardar</button>
+		</div>
+	
+            <button id="btn-Save2" type="submit" class="btn btn-primary mb-2">Guardar</button>
         </form>
     </div>
 
     <div class="container" style="padding: 70px;">
-        <h5>Proyecto de vida:</h5>
+        <h5 id="ProyectVida">Proyecto de vida:</h5>
         <form class="form-inline" action="/action_page.php">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		
+		<div id="div3-1">
+		<label id="lbl3-1" for="ced#" class="mb-2 mr-sm-2">
                 Fortalezas del Usuario al ingresar al tratamiento
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-2">
+		<label id="lbl3-2" for="ced#" class="mb-2 mr-sm-2">
                 Oportunidades del Usuario al ingresar al tratamiento
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-3">
+		<label id="lbl3-3" for="ced#" class="mb-2 mr-sm-2">
                 Debilidades del Usuario al ingresar al tratamiento
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-4">
+		<label id="lbl3-4" for="ced#" class="mb-2 mr-sm-2">
                 Amenazas del Usuario al ingresar al tratamiento
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-5">
+		<label id="lbl3-5" for="ced#" class="mb-2 mr-sm-2">
                 Objetivo de vida al egresar
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-6">
+		<label id="lbl3-6" for="ced#" class="mb-2 mr-sm-2">
                 Metas
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-7">
+		<label id="lbl3-7" for="ced#" class="mb-2 mr-sm-2">
                 Tareas
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-8">
+		<label id="lbl3-8" for="ced#" class="mb-2 mr-sm-2">
                 Seguimiento del tratamiento fuera del centro
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-9">
+		<label id="lbl3-9" for="ced#" class="mb-2 mr-sm-2">
                 Actividades de ocio o tiempo libre
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
-            <label for="ced#" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-10">
+		<label id="lbl3-10" for="ced#" class="mb-2 mr-sm-2">
                 Acuerdos tomados en última sesión familiar en conjunto con el usuario
             </label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Descripción" name="ced#">
+		</div>
 
 
-            <button type="submit" class="btn btn-primary mb-2">Guardar</button>
+            <button id="btn-Save3" type="submit" class="btn btn-primary mb-2">Guardar</button>
         </form>
     </div>
     

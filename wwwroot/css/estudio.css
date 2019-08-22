@@ -1,0 +1,21 @@
+#div1-1 {
+	position : absolute;
+	margin-top : -60px;
+	margin-left : 70px;
+	width : 903px;
+}
+
+#div2-1 {
+	position : absolute;
+	margin-top : 274px;
+	width : 903px;
+	margin-left : 70px;
+}
+
+#div3-1 {
+	position : absolute;
+	margin-top : 552px;
+	margin-left : 70px;
+	width : 903px;
+	padding-bottom : 10px;
+}

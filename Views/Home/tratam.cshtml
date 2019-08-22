@@ -1,4 +1,43 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Plan Tratamiento</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="tratam.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="expedientes.html">Expedientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Pacientes.html">Paciente</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="estudio.html">Estudio Socioeconomico</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historial Longitudinal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="diagnos.html">Diagnostico Social</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tratam.html">Plan de Tratamiento</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="engreso.html">Plan de Engreso</a>
+            </li>
+        </ul>
+    </nav>
 
     <div class="container" style="padding: 70px;">
         <h2>Buscar paciente:</h2>
@@ -10,8 +49,11 @@
             <button type="submit" class="btn btn-primary mb-2">Buscar</button>
         </form>
     </div>
-
-    <label for="Ape1.1" class="mb-2 mr-sm-2">Etapas: </label>
+	
+	<!-- Etapas (first div)-->
+	
+	<div id="div-txt">
+	<label for="Ape1.1" class="mb-2 mr-sm-2">Etapas: </label>
     <select name="cars" class="custom-select">
         <option selected> Seleccionar</option>
         <option value="Etapa 1">Etapa 1</option>
@@ -60,22 +102,25 @@
     <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Objetivos" name="ced#">
     <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Estrategias" name="ced#">
     <input type="text" class="form-control mb-2 mr-sm-2" id="ced#" placeholder="Metas" name="ced#">
-
-    <button type="submit" class="btn btn-primary mb-2">Guardar</button>
+	</div>
+    <button id="Prim-Save0" type="submit" class="btn btn-primary mb-2">Guardar</button>
 
 
     <div class="container" style="padding: 1px;">
         <h2>Criterios de avance de etapa 1 a la 2:</h2>
         <form class="form-inline" action="/action_page.php">
 
-            <label for="Ape1.1" class="mb-2 mr-sm-2">Se observa que el usuario se ha adaptado y complementa con el grupo: </label>
+            <div id="div1-1">
+			<label id="lbl1-1" for="Ape1.1" class="mb-2 mr-sm-2">Se observa que el usuario se ha adaptado y complementa con el grupo: </label>
             <select name="cars" class="custom-select">
                 <option selected> Seleccionar</option>
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div1-2">
+			<label id="lbl1-2" for="Ape1.1" class="mb-2 mr-sm-2">
                 Se observa en su conducta que el usuario ha tomado conciencia de su situación adictiva y de los factores individuales y sociales que lo han llevado a situación:
             </label>
             <select name="cars" class="custom-select">
@@ -83,8 +128,10 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div1-3">
+			<label id="lbl1-3" for="Ape1.1" class="mb-2 mr-sm-2">
                 Se observa al usuario motivado al cambio trabajando las distintas áreas con responsabilidad:
             </label>
             <select name="cars" class="custom-select">
@@ -92,8 +139,10 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div1-4">
+			<label id="lbl1-4" for="Ape1.1" class="mb-2 mr-sm-2">
                 Se ha detectado que la familia tiene la actitud y desea involucrarse en el tratamiento asistiendo a las terapias correspondiente:
             </label>
             <select name="cars" class="custom-select">
@@ -101,8 +150,10 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div1-5">
+			<label id="lbl1-5" for="Ape1.1" class="mb-2 mr-sm-2">
                 Se establecen los primeros vínculos con redes de apoyo:
             </label>
             <select name="cars" class="custom-select">
@@ -110,26 +161,38 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
+			</div>
 
-            <label for="Ape2.2" class="mb-2 mr-sm-2">Observaciones:</label>
+			
+			<div id="div1-6">
+			<label id="lbl1-6" for="Ape2.2" class="mb-2 mr-sm-2">Observaciones:</label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ape2.2" placeholder="Consultas en el ultimo año" name="ape2.2">
-
-            <button type="submit" class="btn btn-primary mb-2">Guardar</button>
+			</div>
+			
+			<div id="btn-Div">
+			<button id="btn-Save1" type="submit" class="btn btn-primary mb-2">Guardar</button>
+			</div>
+			
+			
+            
         </form>
     </div>
 
     <div class="container" style="padding: 1px;">
-        <h2>Criterios de avance de etapa 2 a la 3:</h2>
+        <h2 id="etapa-2">Criterios de avance de etapa 2 a la 3:</h2>
         <form class="form-inline" action="/action_page.php">
 
-            <label for="Ape1.1" class="mb-2 mr-sm-2">Se ha fortalecido la confianza, apoyo, y ha mejorado la actitud familiar, amigos y redes de apoyo a tal punto que el usuario puede tener contacto con ellos en sus días de pase:</label>
+            <div id="div2-1">
+			<label id="lbl2-1" for="Ape1.1" class="mb-2 mr-sm-2">Se ha fortalecido la confianza, apoyo, y ha mejorado la actitud familiar, amigos y redes de apoyo a tal punto que el usuario puede tener contacto con ellos en sus días de pase:</label>
             <select name="cars" class="custom-select">
                 <option selected> Seleccionar</option>
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div2-2">
+			<label id="lbl2-2" for="Ape1.1" class="mb-2 mr-sm-2">
                 Se está tratando la codependencia y la autonomía del residente y su red familiar:
             </label>
             <select name="cars" class="custom-select">
@@ -137,8 +200,10 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div2-3">
+			<label id="lbl2-3" for="Ape1.1" class="mb-2 mr-sm-2">
                 Se ha observado mejora en la comunicación, manejo de conflictos detonantes, y vínculos afectivos:
             </label>
             <select name="cars" class="custom-select">
@@ -146,8 +211,10 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div2-4">
+			<label id="lbl2-4" for="Ape1.1" class="mb-2 mr-sm-2">
                 Se ha asumido mayor responsabilidad en trabajar todas las otras áreas físicas, sexualidad, espiritualidad, legal y emocional:
             </label>
             <select name="cars" class="custom-select">
@@ -155,8 +222,10 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+			</div>
+			
+			<div id="div2-5">
+			<label id="lbl2-5" for="Ape1.1" class="mb-2 mr-sm-2">
                 Se ha observado motivación al cambio , mejor manejo de la ambivalencia , el síndrome de abstinencia, y la baja tolerancia a la lustración:
             </label>
             <select name="cars" class="custom-select">
@@ -164,26 +233,33 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
+			</div>
 
-            <label for="Ape2.2" class="mb-2 mr-sm-2">Observaciones:</label>
+			
+			<div id="div2-6">
+			<label id="lbl2-6" for="Ape2.2" class="mb-2 mr-sm-2">Observaciones:</label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ape2.2" placeholder="Consultas en el ultimo año" name="ape2.2">
+			</div>
 
-            <button type="submit" class="btn btn-primary mb-2">Guardar</button>
+            <button id="btn-Save2" type="submit" class="btn btn-primary mb-2">Guardar</button>
         </form>
     </div>
 
     <div class="container" style="padding: 1px;">
         <h2>Criterios de avance de 3era etapa a seguimiento:</h2>
         <form class="form-inline" action="/action_page.php">
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">Se logra que la familia y el residente reconozcan factores protectores y de riesgo en la situación de adicción: que el usuario puede tener contacto con ellos en sus días de pase:</label>
+		
+		<div id="div3-1">
+		<label id="lbl3-1" for="Ape1.1" class="mb-2 mr-sm-2">Se logra que la familia y el residente reconozcan factores protectores y de riesgo en la situación de adicción: que el usuario puede tener contacto con ellos en sus días de pase:</label>
             <select name="cars" class="custom-select">
                 <option selected> Seleccionar</option>
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-2">
+		<label id="lbl3-2" for="Ape1.1" class="mb-2 mr-sm-2">
                 Existencia de redes de apoyo:
             </label>
             <select name="cars" class="custom-select">
@@ -191,8 +267,10 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-3">
+		<label id="lbl3-3" for="Ape1.1" class="mb-2 mr-sm-2">
                 Participación en grupos de apoyo:
             </label>
             <select name="cars" class="custom-select">
@@ -200,8 +278,10 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-4">
+		<label id="lbl3-4" for="Ape1.1" class="mb-2 mr-sm-2">
                 Desarrollo en el usuario de habilidades sociales y de comunicación, manejo de conflictos:
             </label>
             <select name="cars" class="custom-select">
@@ -209,8 +289,10 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-5">
+		<label id="lbl3-5" for="Ape1.1" class="mb-2 mr-sm-2">
                 El usuario tiene mayor autonomía y la familia hace un manejo de la codependencia:
             </label>
             <select name="cars" class="custom-select">
@@ -218,8 +300,10 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-6">
+		<label id="lbl3-6" for="Ape1.1" class="mb-2 mr-sm-2">
                 Los vínculos sociales actuales del usuario fomentan el continuar la motivación al cambio:
             </label>
             <select name="cars" class="custom-select">
@@ -227,8 +311,10 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-7">
+		<label id="lbl3-7" for="Ape1.1" class="mb-2 mr-sm-2">
                 El usuario sale con un proyecto de vida viable de lograrse en cuanto a área laboral, familiar, educativa, legal, etc:
             </label>
             <select name="cars" class="custom-select">
@@ -236,8 +322,10 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape1.1" class="mb-2 mr-sm-2">
+		</div>
+		
+		<div id="div3-8">
+		<label id="lbl3-8" for="Ape1.1" class="mb-2 mr-sm-2">
                 Cuenta el usuario con un plan de egreso:
             </label>
             <select name="cars" class="custom-select">
@@ -245,10 +333,20 @@
                 <option value="Si">Si</option>
                 <option value="No">No</option>
             </select>
-
-            <label for="Ape2.2" class="mb-2 mr-sm-2">Observaciones:</label>
+		</div>
+		
+		<div id="div3-9">
+		<label for="Ape2.2" class="mb-2 mr-sm-2">Observaciones:</label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="ape2.2" placeholder="Consultas en el ultimo año" name="ape2.2">
+		</div>
 
-            <button type="submit" class="btn btn-primary mb-2">Guardar</button>
+		<div id="div3-10">
+		<button id="btn-Save3" type="submit" class="btn btn-primary mb-2">Guardar</button>
+		</div>
+            
         </form>
     </div>
+
+
+</body>
+</html>

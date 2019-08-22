@@ -1,0 +1,295 @@
+#PlanEgreso {
+	position : absolute;
+	margin-top : -140px;
+}
+
+#div1-1 {
+	position : absolute;
+	margin-top : -91px;
+	padding-top : 5px;
+}
+
+#div1-2 {
+	position : absolute;
+	margin-top : -40px;
+	padding-top : 5px;
+}
+
+#div1-3 {
+	position : absolute;
+	margin-top : 11px;
+	padding-top : 5px;
+}
+
+#div1-4 {
+	position : absolute;
+	margin-top : 62px;
+	padding-top : 5px;
+}
+
+
+#btn-Save1 {
+	position : absolute;
+	margin-top : 110px;
+	margin-left : 500px;
+}
+
+#lbl1-1 {
+	display : inline;
+	padding-right : 35px;
+}
+
+#lbl1-2 {
+	display : inline;
+}
+
+#lbl1-3 {
+	display : inline;
+	padding-right : 23px;
+}
+
+#lbl1-4 {
+	display : inline;
+	padding-right : 35px;
+}
+
+#div2-1 {
+	position : absolute;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	margin-top : 16px;
+}
+
+#div2-2 {
+	position : absolute;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	margin-top : 68px;
+}
+
+#Redes-Apoyo {
+	position : absolute;
+	margin-top : 124px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#div2-3 {
+	position : absolute;
+	margin-top : 167px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#div2-4 {
+	position : absolute;
+	margin-top : 223px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#div2-5 {
+	position : absolute;
+	margin-top : 279px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#div2-6 {
+	position : absolute;
+	margin-top : 334px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#div2-7 {
+	position : absolute;
+	margin-top : 390px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#div2-8 {
+	position : absolute;
+	margin-top : 446px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+#btn-Save2 {
+	position : absolute;
+	margin-left : 500px;
+	margin-top : 500px;
+	padding-bottom : 5px;
+}
+
+
+
+#lbl2-1 {
+	display : inline;
+	padding-right : 67px;
+}
+
+#lbl2-2 {
+	display : inline;
+}
+
+#lbl2-3 {
+	display : inline;
+	padding-right : 62px;
+}
+
+
+#lbl2-4 {
+	display : inline;
+	padding-right : 42px;
+}
+
+#lbl2-5 {
+	display : inline;
+}
+
+#lbl2-6 {
+	display : inline;
+	padding-right : 20px;
+}
+
+#lbl2-7 {
+	display : inline;
+	padding-right : 28px;
+}
+
+#lbl2-8 {
+	display : inline;
+}
+
+#ProyectVida {
+	position : absolute;
+	margin-top: 400px;
+	padding-bottom : 5px;
+	padding-top : 5px;
+}
+
+#div3-1 {
+	
+	position : absolute;
+	margin-top : 462px;
+	padding-bottom : 5px;
+	padding-top : 5px;
+}
+
+#div3-2 {
+	
+	position : absolute;
+	margin-top : 518px;
+	padding-bottom : 5px;
+	padding-top : 5px;	
+}
+
+#div3-3 {
+	
+	position : absolute;
+	margin-top : 574px;
+	padding-bottom : 5px;
+	padding-top : 5px;
+}
+
+#div3-4 {
+	
+	position : absolute;
+	margin-top : 630px;
+	padding-bottom : 5px;
+	padding-top : 5px;
+}
+
+#div3-5 {
+	
+	position : absolute;
+	margin-top : 686px;
+	padding-bottom : 5px;
+	padding-top : 5px;
+}
+
+#div3-6 {
+	
+	position : absolute;
+	margin-top : 742px;
+	padding-bottom : 5px;
+	padding-top : 5px;
+}
+
+#div3-7 {
+	
+	position : absolute;
+	margin-top : 798px;
+	padding-bottom : 5px;
+	padding-top : 5px;
+}
+
+#div3-8 {
+	
+	position : absolute;
+	margin-top : 854px;
+	padding-bottom : 5px;
+	padding-top : 5px;
+}
+
+#div3-9 {
+	position : absolute;
+	margin-top : 910px;
+	padding-bottom : 5px;
+	padding-top : 5px;
+}
+
+#div3-10 {
+	position : absolute;
+	margin-top : 966px;
+	padding-bottom : 5px;
+	padding-top : 5px;
+}
+
+#btn-Save3 {
+	position : absolute;
+	margin-top : 1025px;
+	margin-left : 500px;
+}
+
+#lbl3-1 {
+	display : inline;
+}
+
+#lbl3-2 {
+	display : inline;
+}
+
+#lbl3-3 {
+	display : inline;
+}
+
+#lbl3-4 {
+	display : inline;
+}
+
+#lbl3-5 {
+	display : inline;
+}
+
+#lbl3-6 {
+	display : inline;
+}
+
+#lbl3-7 {
+	display : inline;
+}
+
+#lbl3-8 {
+	display : inline;
+}
+
+#lbl3-9 {
+	display : inline;
+}
+
+#lbl3-10 {
+	display : inline;
+}
