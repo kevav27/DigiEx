@@ -20,6 +20,7 @@ namespace DigiEx.Models
         public int hijosCant { get; set; } //HijosCant en tabla Persona
         public string ocupacion { get; set; } //Ocupacion en tabla Persona
         public string nacionalidad { get; set; } //Nacionalidad en tabla Persona
+        public string procedencia { get; set; }
         public DateTime fechaIngreso { get; set; } //en fechaIngreso se toma la fecha del sistema
         public float estatura { get; set; } //Estatura en tabla Persona
         public float peso { get; set; } //Peso e tabla Persona
