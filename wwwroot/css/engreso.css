@@ -28,29 +28,29 @@
 }
 
 
-#btn-Save1 {
-	position : absolute;
-	margin-top : 110px;
-	margin-left : 500px;
+#btnGuardarPlanEgreso {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 500px;
 }
 
-#lbl1-1 {
-	display : inline;
-	padding-right : 35px;
+#FortalezasUsuario {
+    display: inline;
+    padding-right: 35px;
 }
 
-#lbl1-2 {
-	display : inline;
+#OpoIngreTratam {
+    display: inline;
 }
 
-#lbl1-3 {
-	display : inline;
-	padding-right : 23px;
+#debilidadTratam {
+    display: inline;
+    padding-right: 23px;
 }
 
-#lbl1-4 {
-	display : inline;
-	padding-right : 35px;
+#AmenazasTratam {
+    display: inline;
+    padding-right: 35px;
 }
 
 #div2-1 {
@@ -81,11 +81,11 @@
 	padding-bottom : 5px;
 }
 
-#div2-4 {
-	position : absolute;
-	margin-top : 223px;
-	padding-top : 5px;
-	padding-bottom : 5px;
+#amistades {
+    position: absolute;
+    margin-top: 223px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #div2-5 {
@@ -125,42 +125,42 @@
 
 
 
-#lbl2-1 {
-	display : inline;
-	padding-right : 67px;
+#EtapasEgreso {
+    display: inline;
+    padding-right: 67px;
 }
 
-#lbl2-2 {
-	display : inline;
+#FisicaSalud {
+    display: inline;
 }
 
-#lbl2-3 {
-	display : inline;
-	padding-right : 62px;
+#fam {
+    display: inline;
+    padding-right: 62px;
 }
 
 
-#lbl2-4 {
-	display : inline;
-	padding-right : 42px;
+#amistades {
+    display: inline;
+    padding-right: 42px;
 }
 
-#lbl2-5 {
-	display : inline;
+#gruApoyo {
+    display: inline;
 }
 
-#lbl2-6 {
-	display : inline;
-	padding-right : 20px;
+#areaLaboral {
+    display: inline;
+    padding-right: 20px;
 }
 
-#lbl2-7 {
-	display : inline;
-	padding-right : 28px;
+#areaJudicial {
+    display: inline;
+    padding-right: 28px;
 }
 
-#lbl2-8 {
-	display : inline;
+#areaAcadeTec {
+    display: inline;
 }
 
 #ProyectVida {
@@ -254,42 +254,42 @@
 	margin-left : 500px;
 }
 
-#lbl3-1 {
-	display : inline;
+#fortaUsuarioIng {
+    display: inline;
 }
 
-#lbl3-2 {
-	display : inline;
+#OportIngTratam {
+    display: inline;
 }
 
-#lbl3-3 {
-	display : inline;
+#debIngreTratam {
+    display: inline;
 }
 
-#lbl3-4 {
-	display : inline;
+#amenzIngTratam {
+    display: inline;
 }
 
-#lbl3-5 {
-	display : inline;
+#ObjVidaEgre {
+    display: inline;
 }
 
-#lbl3-6 {
-	display : inline;
+#metas {
+    display: inline;
 }
 
-#lbl3-7 {
-	display : inline;
+#tareas {
+    display: inline;
 }
 
-#lbl3-8 {
-	display : inline;
+#seguimientoFuera {
+    display: inline;
 }
 
-#lbl3-9 {
-	display : inline;
+#ocioTmpLibre {
+    display: inline;
 }
 
-#lbl3-10 {
-	display : inline;
+#sesionFamiliar {
+    display: inline;
 }

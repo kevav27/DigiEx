@@ -2,140 +2,141 @@ body {
 	background-color : white;
 }
 
-#lbl-1 {
-	display : inline;
-	padding-right : 4px;
+#lbl-Voluntariamente {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-2 {
-	display : inline;
-	padding-right : 4px;
+#lbl-AfectoConsumo {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-3 {
-	display : inline;
-	padding-right : 4px;
+#lbl-PreguntaTratamiento {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-4 {
-	display : inline;
-	padding-right : 4px;
+#lbl-HistoriaTratamiento {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-5 {
-	display : inline;
-	padding-right : 4px;
+#lbl-LocalizacionTratamientoPrevio {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-6 {
-	display : inline;
-	padding-right : 4px;
+#lbl-TratamientoCompletado {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-7 {
-	display : inline;
-	padding-right : 4px;
+#lbl-PreguntaSintomas {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-8 {
-	display : inline;
-	padding-right : 4px;
+#lbl-CantidadConsultas {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-9 {
-	display : inline;
-	padding-right : 4px;
+#lbl-TiempoInternamiento {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-10 {
-	display : inline;
-	padding-right : 4px;
+#lbl-ConsumoDrogasInterrupcion {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-11 {
-	display : inline;
-	padding-right : 4px;
+#lbl-MotivoInterrupciónConsumo {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-12 {
-	display : inline;
-	padding-right : 4px;
+#lbl-MotivoReConsumo {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-13 {
-	display : inline;
-	padding-right : 4px;
+#lbl-ActitudPareja {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-14 {
-	display : inline;
-	padding-right : 4px;
+#lbl-ActitudFamilia {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-15 {
-	display : inline;
-	padding-right : 4px;
+#lbl-ConsumoLaboral {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl-16 {
-	display : inline;
-	padding-right : 4px;
+#lbl-ActitudLaboral {
+    display: inline;
+    padding-right: 4px;
 }
 
 label {
 	display : inline;
 }
 
-#lbl2-1 {
-	display : inline;
-	padding-right : 4px;
+#lbl2-LocalizacionConsumo {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl2-2 {
-	display : inline;
-	padding-right : 4px;
+#lbl2-GrupoConsumo {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl2-3 {
-	display : inline;
-	padding-right : 4px;
+#lbl2-MotivoConsumo {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl2-4 {
-	display : inline;
-	padding-right : 4px;
+#lbl2-Drogas5Anios {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl2-5 {
-	display : inline;
-	padding-right : 4px;
+#lbl2-FrecuenciaConsumoDrogas {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl2-6 {
-	display : inline;
-	padding-right : 4px;
+#lbl2-TipoConsumoDroga {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl2-7 {
-	display : inline;
-	padding-right : 4px;
+#lbl2-DrogasRecientes {
+    display: inline;
+    padding-right: 4px;
 }
 
+/* Inicio sección 3-CONSECUENCIAS DEL CONSUMO DE DROGAS */
 #lbl3-122 {
 	display : inline;
 	padding-right : 4px;
 }
 
-#lbl3-0 {
-	display : inline;
-	padding-right : 4px;
+#lbl3-AfectoConsumoDrogas {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl3-0038 {
-	display : inline;
-	padding-right : 4px;
-	font-weight : bold;
-	font-style : italic;
+#lbl3-AntecedentesFamiliares {
+    display: inline;
+    padding-right: 4px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 #lbl3-00 {
@@ -365,199 +366,199 @@ label {
 	padding-right : 4px;
 }
 
-#lbl5-1 {
-	display : inline;
-	padding-right : 4px;
+#lbl5-HigieneHabitacional {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl5-2 {
-	display : inline;
-	padding-right : 4px;
+#lbl5-RelacionesSexualesPregunta {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl5-3 {
-	display : inline;
-	padding-right : 4px;
+#lbl5-PrimerContactoSexual {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl5-4 {
-	display : inline;
-	padding-right : 4px;
+#lbl5-MasturbacionAdolescencia {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl5-5 {
-	display : inline;
-	padding-right : 4px;
+#lbl5-MasturbacionActual {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl5-6 {
-	display : inline;
-	padding-right : 4px;
+#lbl5-SexoPrimeraParejaSexual {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl5-7 {
-	display : inline;
-	padding-right : 4px;
+#lbl5-AbusoSexual {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl5-8 {
-	display : inline;
-	padding-right : 4px;
+#lbl5-TemorRelacionSexual {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl5-9 {
-	display : inline;
-	padding-right : 4px;
+#lbl5-IdentidadOrgasmo {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl5-10 {
-	display : inline;
-	padding-right : 4px;
+#lbl5-PracticaSexualActual {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl5-11 {
-	display : inline;
-	padding-right : 4px;
+#lbl5-PreferenciasSexuales {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl5-12 {
-	display : inline;
-	padding-right : 4px;
+#lbl5-SexoDrogado {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl5-13 {
-	display : inline;
-	padding-right : 4px;
+#lbl5-RelacionesInsectuosas {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-1 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-UsoCondon {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-2 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-PlanificacionPreferida {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-3 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-MotivoAnticonceptivo {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-4 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-PracticaSexoOral {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-5 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-PracticaSexoAnal {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-6 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-SentimientosNegativos {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-7 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-RopaSexoOpuesto {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-8 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-EnseñarGenitalesDesconocidos {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-9 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-ObservarOtrosSexo {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-10 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-FaltaDeDeseoSexual {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-11 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-SufrimientosSexuales {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-12 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-SexoDesconocido {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-13 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-SatisfaccionInerte {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-14 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-SexoConMenores {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-15 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-SexoAnimales {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-16 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-HumillacionSexual {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-17 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-DisfuncionErectil {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-18 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-EyaculacionPrecoz {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-19 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-DificultadPenetracion {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-20 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-DificultadLubricacionGenital {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-21 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-DificultadPenetracion {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-22 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-OrientacionSexual {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-23 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-ConsecuenciaSexualDebidoADrogas {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-24 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-RechazoSexual {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-25 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-AusenciaPlacerSexual {
+    display: inline;
+    padding-right: 4px;
 }
 
-#lbl6-26 {
-	display : inline;
-	padding-right : 4px;
+#lbl6-ImaginacionSexual {
+    display: inline;
+    padding-right: 4px;
 }
 
 #div-buscador {
@@ -743,13 +744,12 @@ label {
 	padding-left : 3px;
 }
 
-#btn_save {
-	margin-left : 450px;
-	margin-top : 800px;
-	top : 500px;
-	margin-bottom : 100px;
-	bottom : -800px;
-	
+#btn_GuardarDatosTratamiento {
+    margin-left: 450px;
+    margin-top: 800px;
+    top: 500px;
+    margin-bottom: 100px;
+    bottom: -800px;
 }
 
 #div2-1 {
@@ -827,7 +827,6 @@ label {
 }
 
 #div2-8 {
-	/*background-color : yellow;*/
 	position : relative;
 	display : block;
 	left : 500px;
@@ -847,16 +846,16 @@ label {
 	margin-left : 475px;
 }
 
-#div-btn {
-	position : relative;
-	margin-top : 500px;
-	top : 190px;
-	margin-left : 295px;
-	margin-bottom : 50px;
-	padding-right : 10px;
-	padding-bottom : 10px;
-	padding-left : 10px;
-	padding-top : 10px;
+#div-btnGuardarConsecuenciasConsumoDrogas {
+    position: relative;
+    margin-top: 500px;
+    top: 190px;
+    margin-left: 295px;
+    margin-bottom: 50px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 #lbl3-1 {
@@ -866,17 +865,17 @@ label {
 	top : 1243px;
 }
 
-#lbl3-2 {
-	font-weight : bold;
-	font-style : italic;
-	display : block;
-	width : 194px;
-	padding-right : 4px;
-	position : absolute;
-	margin-top : 500px;
-	top : 1802px;
-	margin-left : 4px;
-	left : -4px;
+#lbl3-AntecedentesPersonales {
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    width: 194px;
+    padding-right: 4px;
+    position: absolute;
+    margin-top: 500px;
+    top: 1802px;
+    margin-left: 4px;
+    left: -4px;
 }
 
 
@@ -1607,9 +1606,9 @@ label {
 	padding-left : 10px;
 }
 
-#lbl4-01 {
-	font-weight : bold;
-	font-style : italic;
+#lbl4-DesarolloTitle {
+    font-weight: bold;
+    font-style: italic;
 }
 
 #lbl4-02 {
@@ -1624,12 +1623,12 @@ label {
 	
 }
 
-#div4-38 {
-	position : absolute;
-	margin-top : 500px;
-	top : 2515px;
-	margin-left : 500px;
-	left : 50px;
+#div4-OtrosTitle {
+    position: absolute;
+    margin-top: 500px;
+    top: 2515px;
+    margin-left: 500px;
+    left: 50px;
 }
 
 /* */
